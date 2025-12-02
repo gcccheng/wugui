@@ -1,324 +1,499 @@
 ---
 layout: cv
-title: Gang Cheng's CV
+title: 程刚中文简历
 ---
-# Gang Cheng 
+# 程 刚（Gang Cheng）
 
-Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
+Red Hat 认证架构师（RHCA）｜基础架构工程师 / DevOps 工程师 / 平台工程师 / Developer Experience 工程师  
+
+2024 年 Red Hat Certified Professional of the Year（挪威年度唯一获奖者）  
 
 <div id="webaddress">
-<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat Bio</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
+<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat 简介</a> |
+<a href="https://www.linkedin.com/in/gang-cheng-7170a521/">LinkedIn</a>
 </div>
 
-## Summary
+---
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, and most importantly, through industry peers. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+# 🎯 概要（Summary）
 
-In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) 
- Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. No matter what title it could be, Gang adapts to what is needed for the team.
+程刚是一位自我驱动、持续成长的工程师，坚信持续学习和快速掌握新技术是 IT 工程师的核心能力。他长期主动构建现代基础架构与平台工程能力，通过持续的项目实践、认证、会议、课程以及与行业同行学习，不断强化自身技术广度与深度。
 
-With over a decade of hands-on experience in various IT infrastructure environments, he successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and create values.
+2024 年，他荣获 **Red Hat Certified Professional of the Year** —— 这是 Red Hat 对个人技术能力的全球性认可，他也是当年挪威唯一获奖者。
 
+在他的职业生涯中，他担任过系统管理员、基础设施工程师、DevOps 工程师、开发者体验（DevEx）工程师、平台工程师或多角色融合的岗位。他在团队中始终以“解决问题、创造价值”为目标。
 
-## Employment
-`2025-Now`  
-***<font size="3">Senior Platform Engineer — Appear TV, Oslo</font>***
+凭借十年以上在不同规模与行业的基础设施环境中的经验，他成功为客户交付解决方案，创造价值，并与开发团队、研究团队保持紧密合作。他的沟通能力强，善于跨团队协作与推动落地。
 
-At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, and platform security.
+---
 
-**Key Responsibilities & Achievements**
+# 💼 Employment（工作经历）
 
-- Built and maintained **bare-metal Kubernetes clusters** managed by Rancher, running on Flatcar (immutable OS), supporting internal R&D teams working with Rust, C++, Python, Yocto, and TypeScript.
-- Designed end-to-end **GitOps workflows** using GitLab + ArgoCD with Kustomize, enabling automated deployments, consistent environment management, and reduced operational overhead.
-- Automated infrastructure provisioning using **Terraform**, with GitLab pipelines triggering Terraform apply for predictable and auditable changes.
-- Integrated **TrueNAS NFS backend** to support stateless workloads with decoupled persistent storage.
-- Managed and optimized internal platform components: **Harbor registry, VMware VM lifecycle, ExternalDNS, Bind9, MetalLB, Replicator, GitLab Runners**.
-- Built observability stack using **Prometheus + Grafana**, providing system health metrics, dashboards, and alerting.
-- Collaborated directly with the **CISO** to ensure that CI/CD pipelines, Kubernetes cluster settings, and deployment workflows comply with security requirements and internal governance.
-- Improved reliability of the development workflow, reduced deployment friction, and enhanced the entire software delivery lifecycle through automation and platform standardization.
-- Participated in the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Implemented the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
+---
 
+# ⭐ 2025–至今  
+# **Senior Platform Engineer｜Appear TV（挪威）**
 
-`2022-2025`
-***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
+负责建设与维护现代化、高可用、高性能的基础设施平台，支持公司内部开发流程与产品交付。
 
-During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
+---
 
-`project`
-**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
+## 🔹 **构建和维护现代化、可扩展的基础设施，为开发者生产力和高性能应用提供支撑**
 
-Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
+### 使用的关键技术栈
 
-Contribution: Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
+- 裸金属 Kubernetes 集群（由 Rancher 管理）
+- Flatcar（不可变式操作系统）
+- GitOps：GitLab、ArgoCD、Kustomize
+- Terraform 自动化（GitLab CI 触发 Terraform apply）
+- TrueNAS NFS 存储
+- Harbor 内部镜像仓库
+- VMware 虚拟机管理
+- 其他基础组件：ExternalDNS、Bind9、MetalLB、Replicator、GitLab Runners
+- 监控体系：Prometheus + Grafana
+- 与 CISO 协作确保 CI/CD 与平台全生命周期的安全与合规
 
-Value Created: Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
+---
 
+## 🔹 **项目：部署 Appear Hub 于 Azure（客户固件/文档/License 下载平台）**
 
-`project`
-**Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)**
+### 描述（Description）
 
-Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
+构建一个面向客户的软件交付平台，用于固件、文档、许可文件的安全下载。平台需要高可用、全球访问、安全控制与自动化交付能力。
 
-Contribution: Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
+### 贡献（Contribution）
 
-Value Created: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
+- 使用 **Azure Container Apps** 部署后端服务，支持弹性扩缩容
+- 使用 **Azure Front Door** 提供全球路由、SSL、WAF、安全访问控制
+- 使用 **Azure Blob Storage** 存储固件、文档和许可证
+- GitLab CI 负责构建镜像、推送和自动部署
+- 使用 Azure Monitor 进行日志与监控
+- 确保系统满足企业安全与访问控制标准
 
-`project`
-**Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)**
+### 价值（Value Created）
 
-Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
+- 提升客户下载体验  
+- 提供现代化交付体系  
+- 显著降低运维成本  
+- 系统安全性与可审计性增强  
 
-Contribution: Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
+---
 
-Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
+# ⭐ 2022–2025  
+# **Senior Infrastructure Engineer｜Sopra Steria（挪威）**
 
-`project`
-**Building Infrastructure Monitoring System(ongoing)(sole role)**
+担任 DevOps/基础设施工程师，负责多个关键基础设施项目。以下为英文原文的逐条完整翻译：
 
-Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
+---
 
-Contribution: Building Prometheus and Grafana on an existing Kubernetes platform to monitor both containers and VMs, integrating alerting and visualization.
+## 🔹 **项目：构建高可用 Kubernetes + GitHub Actions Runner Controller（ARC）平台（独立负责）**
 
-Value Created: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
- 
-`project`
-**Troubleshooting and Improving CI/CD Pipelines**
+### 描述
 
-Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
+原基于 VM 的 Runner 存在扩展性差、竞争条件、隔离性不足等问题，需要迁移到 Kubernetes。
 
-Contribution: Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
+### 贡献
 
-Value Created: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
+- 独自设计并实现高可用 Kubernetes 集群与 ARC 控制器
+- 构建动态 Runner，任务结束即销毁
+- 将所有 VM Runner 迁移到 Kubernetes
+- 重构 pipeline 并定义新部署流程
+- 建立监控、日志和日常运维体系
 
-`project`
-**Infrastructure Standardization and Automation(sole role)**
+### 价值
 
-Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
+- 实现弹性扩容和更高效率的 CI/CD 平台  
+- 显著提升可靠性、隔离性和可维护性  
 
-Contribution: Standardized operating systems, simplified and automated VM provisioning and management process.
+---
 
-Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
+## 🔹 **项目：MinIO S3 Terraform 状态后端（独立负责）**
 
+### 描述
 
-`project`
-**Automating Upgrading RHEL7 to RHEL8**
+Terraform 状态文件原本存储在本地磁盘，不支持协作、版本控制或审计。
 
-Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
+### 贡献
 
-Contribution: Designed upgrading plan with application owners and automated upgrading job with Ansible.
+- 在 Kubernetes 上部署 MinIO 并实现 S3 接口  
+- 将其整合至 GitHub Actions pipeline  
+- 配置访问控制、加密、版本化  
+- 将所有 Terraform 项目迁移至 MinIO 后端
 
-Value Created: Ensure systems are aligned with security compliance standards.
+### 价值
 
+- 实现状态文件集中化、版本控制、安全管理  
+- 无需依赖公共云，完全满足合规要求  
 
-`project`
-**Ansible Automation Platform on Openshift**
+---
 
-Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
+## 🔹 **项目：构建 GitOps 工作流（Argo CD）**
 
-Contribution: Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
+### 描述
 
-Value Created: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
+开发团队需要一种自动化、统一的部署方式，可通过分支管理不同部署环境。
 
+### 贡献
 
-`project`
-**Deploying Red Hat 9 to Production Infrastructure**
+- 设计 GitOps 架构：GitHub → ArgoCD → Kubernetes  
+- 构建 Helm 可复用模板  
+- 使用 Kustomize 管理环境差异  
+- 设置项目 RBAC 与隔离策略  
+- 与开发团队一起重新设计部署生命周期
 
-Description: Need to test RHEL9 and make it ready for production use.
+### 价值
 
-Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for VMware, and integrated the system with Windows AD.
+- 部署自动化、可审计  
+- 显著降低开发者认知负担与运维工作量  
+- 部署更快速、更可靠  
 
-Value Created: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
+---
 
+## 🔹 **项目：基础设施监控体系（Prometheus + Grafana）**
 
-`project`
-**Automating Patching of Red Hat VM**
+### 描述
 
-Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
+随着 VM 与容器规模增长，需要统一监控平台。
 
-Contribution: Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
+### 贡献
 
-Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
+- 在 Kubernetes 上部署 Prometheus 和 Grafana  
+- 定义告警规则  
+- 创建 VM、集群、应用的健康仪表板  
+- 联合团队定义监控策略
 
-`project`
-**Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform**
+### 价值
 
-Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
+- 提升系统透明度  
+- 更快定位性能瓶颈  
+- 提升可靠性  
 
-Contribution: Designed and implemented an Ansible-based workflow that automated the process of provisioning VM into the production environment.
+---
 
-Value Created: Streamlined installation, configuration, and management of VM.
+## 🔹 **项目：CI/CD 流水线故障排查与优化**
 
+### 描述
 
-`project`
-**Deploying critical application to infrastructure(sole role)**
+开发团队面临 pipeline 错误、执行缓慢、行为不稳定等问题。
 
-Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
-Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
+### 贡献
 
-Value Created: Ensure that the system is aligned with organization policies.
+- 分析 pipeline 日志，定位错误根源  
+- 优化 Runner 配置、缓存、构建逻辑  
+- 清理与重构不稳定任务
+- 标准化流水线结构并改善开发者体验
 
-`project`
-**Splunk Implementation**
+### 价值
 
-Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
+- 大幅提升 pipeline 稳定性  
+- 减少开发者排查时间  
+- 提高交付效率  
 
-Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
+---
 
-Value Created: Enhanced system reliability and performance by proactively identifying incidents.
+## 🔹 **项目：基础设施标准化与自动化**
 
+### 描述
 
-`2012-2022`
-***<font size= "3">System Engineer at University of Oslo</font>***
+基础环境存在不一致性，手动配置较多。
 
-At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities includes comprehensive IT operations management, technical infrastructure support, and close collaboration with scientific researchers. Key activities included:
+### 贡献
 
-Server Infrastructure Management: Purchased, installed, configured, and maintained enterprise-grade Dell, HP, and Red Hat servers. Managed diverse services such as scientific computing, virtualization (VMware/KVM), databases, web servers, and storage services (RAID, Samba, NFS). Ensured high reliability, scalability, and performance optimization.
+- 标准化操作系统版本、VM 模板、配置文件  
+- 编写自动化安装脚本和初始化流程  
+- 为生产环境建立统一准入规范
 
-Windows Deployment and Administration: Provision Windows with PXE, configuration, and continuous management of Windows-based client utilizing SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy enforcement to ensure compliance and reliability.
+### 价值
 
-Network Operations: Administered and maintained both public and private lab networks using Cisco network hardware(switches, routers) and NAT. Performed routine network cabling, port-forwarding, and troubleshooting to maintain seamless connectivity and data security.
+- 提升一致性  
+- 降低运维成本  
+- 提升安全性  
 
-Complex Scientific Software Management: Specialized in installing, configuring, and maintaining sophisticated scientific software with unclear and unstable dependencies. Regularly coordinated with researchers to adapt and optimize computing environments for advanced scientific analyses.
+---
 
-Daily IT Operational Support: Conducted daily operational responsibilities, including user account provisioning, access control, storage administration, security assessments, and proactive system monitoring (Nagios, Zabbix). Ensured timely troubleshooting and resolution of technical issues, significantly minimizing system downtime.
+## 🔹 **项目：自动化升级 RHEL7 → RHEL8**
 
-High-Performance Computing (HPC) Support: Provided hands-on support and user training for researchers accessing the university's HPC infrastructure, assisting in job submission, parallel computing optimization, and data-intensive computational workflows.
+### 描述
 
-## Certificate
-<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
+RHEL7 即将 EOL，需要对大量服务器执行升级。
 
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Architect</a>
+### 贡献
 
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Containers</a>
+- 使用 Ansible 自动化升级流程  
+- 与应用团队合作进行兼容性验证  
+- 优化升级流程以减少停机时间
 
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified OpenShift Administrator</a>
+### 价值
 
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform
-</a>
+- 满足安全与合规要求  
+- 降低人工升级成本  
 
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Deployment and Systems Management</a>
+---
 
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Engineer</a>
+## 🔹 **项目：在 OpenShift 上部署 Ansible Automation Platform（AAP）**
 
-<a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
+### 描述
 
-<a href="https://www.credly.com/earner/earned/badge/ec0cd8f2-d4d4-472b-b143-1a93702989dd"> Microsoft Certified: Azure Fundamentals</a>
+随着 Ansible Playbook 和 Inventory 增长，需要中央管理平台。
 
-<a href="https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes"> Red Hat Certified Specialist in Containers and Kubernetes</a>
+### 贡献
 
-## Events & Conference
+- 在 OpenShift 上部署 AAP  
+- 配置 Playbook、Inventory、Secrets  
+- 定义 RBAC 权限体系
 
-<a href="https://cloud-native-day-oslo-2025.sessionize.com/schedule"> Cloud Native Day Oslo 2025 </a>
+### 价值
 
-<a href="https://www.redhat.com/en/summit?sc_cid=7013a000003SgNoAAK&gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIrWsK8FpcovhjhNkmFLjS6y1CHJ86KXi1ZhIma1cS59K3BK2zOzx9QaAp_EEALw_wcB&gclsrc=aw.ds"> Red Hat Summit - Red Hat Ansible Fest </a>
+- 降低人为错误  
+- 提升自动化能力  
 
-## Articles
+---
 
-<a href="https://medium.com/@gcccheng/lets-talk-about-troubleshooting-090ab6cbb95c"> Let´s talk about troubleshooting </a>
+## 🔹 **项目：部署 RHEL9 到生产**
 
-<a href="https://medium.com/@gcccheng/challenges-tips-and-rewards-working-as-a-consultant-in-norway-4b6ddce2ff3b"> Challenges, tips, and rewards: working as a consultant in Norway </a>
+### 描述
 
-<a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — From DevOps to DevEx </a>
+需要测试与部署 RHEL9，使其满足生产要求。
 
-## Courses
+### 贡献
 
-<a href="https://www.coursera.org/learn/gcp-fundamentals"> Google Cloud Foundamentals </a>
+- 使用 Ansible 自动部署  
+- 制作 RHEL9 VMware 模板  
+- 集成 AD，确保兼容性
 
-<a href="https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/"> Nvidia Academy: AI Infrastructure and Operations
- </a>
+### 价值
 
-<a href="https://www.coursera.org/learn/genai-for-devops-practitioners"> GenAI for DevOps Practitioners </a>
+- 为新系统提供可复用、可扩展的部署方式  
 
-<a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS162x+3T2019/home"> Linux Foundation: Introduction to DevOps and Site Reliability Engineering(Graded and Certified)</a>
+---
 
-<a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2020/home"> Linux Foundation: Introduction to Cloud Infrastructure Technologies
+## 🔹 **项目：Red Hat 虚拟机补丁自动化系统**
 
- 
-<a href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/"> MicroSoft Azure Foundamentals </a>
+### 描述
 
-<a href="https://www.uio.no/studier/emner/matnat/ifi/INF5004NSA/index.html"> Intrusion detection and firewalls </a>
+手工补丁管理成本高、风险大。
 
-<a href="https://www.uio.no/studier/emner/matnat/ifi/INF4018NSA/index.html"> Enterprise Networking: Practices and Technologies </a>
+### 贡献
 
-<a href="https://www.uio.no/studier/emner/matnat/ifi/INF5100NSA/index.html"> Research Methods and Data Analysis </a>
+- 使用 Satellite + Ansible 构建自动补丁流程  
+- 自动检测缺失补丁与执行升级  
+- 建立补丁基线和回滚策略
 
-<a href="https://www.udemy.com/course/mastering-ansible/?gclid=Cj0KCQiAhMOMBhDhARIsAPVml-HCo3Nm7AYmD15j425Ld7FLtLZOYQ9vTev6CMsi5-DeO7ST9exGqw0aAuX3EALw_wcB&matchtype=e&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_80675493522_._ad_535700245675_._kw_ansible+course_._de_c_._dm__._pl__._ti_kwd-822946965094_._li_1010826_._pd__._"> Ansible For System Automation </a>
+### 价值
 
-<a href="https://www.uio.no/studier/emner/matnat/ifi/INF1100/index-eng.html">Introduction to programming with scientific applications</a>
+- 提升安全性  
+- 降低维护开销  
 
-<a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
+---
 
-## Workshops
-<a href="https://events.redhat.com/profile/form/index.cfm?PKformID=0x11991670001">Azure Red Hat OpenShift AI</a>
+## 🔹 **项目：自动化部署 Red Hat VM（VMware）**
 
-<a href="https://aws-experience.com/emea/north/e/ddd34/aws-immersion-day-generative-ai"> AWS RAG and Fine-tuned AI</a>
-            
-<a href="https://www.uio.no/english/services/it/research/hpc/fox/index.html"> Using the High Performance Computing cluster for Educloud Research users </a>
-    
-<a href="https://isovalent.com/isovalent-hands-on-workshop-oslo/"> Cilium Hands-On Workshop & Deep Dive Oslo </a>
+### 描述
 
-Manage vm, virtul network, firewall on Azure
-  
-<a href="http://modules.sourceforge.net/">Using Environment Modules to initialize shell and modify shell environment</a>
-  
-Deploy AWS EC2 instance with terraform
+规模化 VM 部署需要自动化能力。
 
-Running containers with podman
-  
-<a href="https://www.ub.uio.no/english/courses-events/courses/other/Carpentry/211103_github"> Version Control with Git </a>
+### 贡献
 
-Cryptography and SSH remote logins 
-  
-<a href="https://www.ub.uio.no/english/courses-events/courses/other/coderefinery/Python%20for%20Scientific%20Computing%20%28internediate%29"> Python for Scientific Computing</a>
+- 使用 Ansible 完成自动化部署  
+- 包含网络、用户、包管理等完整流程  
+- 支持集群级部署
 
-<a href="https://arnsteio.github.io/UH-IaaS-mini-workshop/"> Virtualized research architecture using openstack</a>
-  
-<a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
+### 价值
 
-## Other Projects
+- 提升部署速度与服务器一致性  
 
-Build multi-model Generative AI experiences on Azure Openshift
+---
 
-Provision VM using Terraform and Configuring CI/CD pipeline on Azure
+## 🔹 **项目：部署关键应用（独立负责）**
 
-Build Proxmox virtual infrastructure for complex IT system
-  
-Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
-  
-Integrate Linux to Windows Domain
+### 描述
 
-Build modern inventory system with OCS inventory
-  
-Set up local directory service with OpenLDAP
-  
-<a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"> Set up Windows Server Update Services for lab network </a>
+部署关键业务应用到基础设施环境。
 
-<a href="https://guacamole.apache.org/">Using Apache Guacamole as free and open-source cross-platform Remote Desktop Gateway</a>
-  
-Intrusion detection and monitoring with Snort and Munin
+### 贡献
 
-## Experienced tech stacks
-Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows Server 2016, Ansible, Terrafform, Bash, Perl, Python Windows SCCM, Samba, NFS, FirewallD, Active Directory, Networking
+- 负责安装、配置、调试  
+- 处理兼容性问题  
+- 确保应用满足组织政策与安全标准
 
-## Exposure Skills
-AWS, MS Azure, Openstack, Vagrant
+### 价值
 
-## Education
-`2010-2012`
-University of Oslo: Master in Network and System Administration
-  
-## Hobbies 
-Blog writing, Skiing, and hiking
-  
-## Languages 
-English: Full Professional Working Proficiency
-  
-Norwegian: Professional Working Proficiency
+- 保证关键业务平台稳定运行  
 
+---
 
-  
+## 🔹 **项目：Splunk 实施（日志与指标平台）**
 
-<!-- ### Footer
+### 描述
 
-Last updated: May 2013 -->
+需要统一日志收集与分析平台。
+
+### 贡献
+
+- 部署 Splunk Enterprise  
+- 配置日志索引与采集规则  
+- 构建基础设施健康监控 Dashboard  
+- 支持事件追踪与故障定位
+
+### 价值
+
+- 大幅提升可观测性  
+- 降低 MTTR（平均恢复时间）  
+
+---
+
+# ⭐ 2012–2022  
+# **System Engineer｜University of Oslo（挪威）**
+
+以下为逐条完整翻译：
+
+---
+
+## 🔹 **服务器与数据中心管理**
+
+- 采购、安装、配置与维护 Dell、HP、Red Hat 等企业服务器  
+- 管理科学计算、虚拟化（VMware / KVM）、数据库、Web 服务  
+- 管理 RAID、Samba、NFS 等存储系统  
+- 为科学研究提供高可靠、高性能计算环境  
+
+---
+
+## 🔹 **Windows 设备部署与管理（SCCM）**
+
+- 使用 PXE 自动化部署 Windows  
+- 使用 Microsoft SCCM 管理客户端生命周期  
+- 自动化软件分发、补丁管理、安全策略
+
+---
+
+## 🔹 **网络管理（Cisco）**
+
+- 负责私有实验室网络和公共网络  
+- 使用 Cisco 交换机与路由器  
+- NAT、网络隔离、端口管理  
+- 维护数据中心网络安全与稳定性  
+
+---
+
+## 🔹 **科研软件与复杂依赖管理**
+
+- 部署、配置复杂科研软件  
+- 解决软件依赖不明确、版本冲突等问题  
+- 与研究人员合作优化计算环境  
+
+---
+
+## 🔹 **高性能计算（HPC）支持**
+
+- 提供 HPC 集群用户培训  
+- 支持作业提交、并行计算优化  
+- 协助研究数据处理与集群调优  
+
+---
+
+# 📜 Certificates（证书）
+
+（按英文原文完整翻译、顺序一致）
+
+- Red Hat Certified Professional of the Year 2024  
+- Red Hat Certified Architect  
+- Red Hat Certified Specialist in Containers  
+- Red Hat Certified OpenShift Administrator  
+- Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform  
+- Red Hat Certified Specialist in Deployment and Systems Management  
+- Red Hat Certified Engineer  
+- Red Hat Certified System Administrator  
+- Microsoft Certified: Azure Fundamentals  
+- Red Hat Certified Specialist in Containers and Kubernetes
+
+---
+
+# 📚 Events & Conference（会议与活动）
+
+- Cloud Native Day Oslo 2025  
+- Red Hat Summit & Ansible Fest  
+
+---
+
+# ✍ Articles（文章）
+
+- 《Let’s talk about troubleshooting》  
+- 《Challenges, tips, and rewards: working as a consultant in Norway》  
+- 《Cloud Native Day Oslo — From DevOps to DevEx》  
+
+---
+
+# 🎓 Courses（课程）
+
+（全量翻译）
+
+- Google Cloud Fundamentals  
+- NVIDIA：AI Infrastructure and Operations  
+- GenAI for DevOps Practitioners  
+- Linux Foundation：Introduction to DevOps and SRE  
+- Linux Foundation：Cloud Infrastructure Technologies  
+- Microsoft Azure Fundamentals  
+- Intrusion Detection and Firewalls  
+- Enterprise Networking  
+- Research Methods and Data Analysis  
+- Mastering Ansible  
+- Introduction to programming with scientific applications  
+- Red Hat：Containers, Kubernetes & OpenShift Fundamentals
+
+---
+
+# 🧪 Workshops（工作坊）
+
+- Azure Red Hat OpenShift AI  
+- AWS RAG & Fine-tuning  
+- HPC hands-on workshops  
+- Cilium Deep Dive  
+- Git 版本控制  
+- Cryptography & SSH  
+- Python Scientific Computing  
+- OpenStack 虚拟化架构  
+- UiO AI Hub  
+
+---
+
+# 🔧 技术栈（Experienced Tech Stacks）
+
+- Kubernetes、Docker、Podman  
+- GitHub Actions、GitHub ARC  
+- Red Hat Linux、Satellite、OpenShift、Ansible  
+- Bitbucket、Confluence、Jira  
+- Grafana、Prometheus  
+- Dell PowerEdge、Cisco  
+- Windows Server、SCCM  
+- Samba、NFS、FirewallD、AD  
+
+---
+
+# 🌱 Exposure Skills（其他接触技能）
+
+- AWS  
+- Azure  
+- OpenStack  
+- Vagrant  
+
+---
+
+# 🎓 教育背景（Education）
+
+**University of Oslo（2010–2012）**  
+硕士：Network and System Administration
+
+---
+
+# 🧗 兴趣（Hobbies）
+
+博客写作、滑雪、徒步旅行
+
+---
+
+# 🌐 语言（Languages）
+
+- 英语：专业工作熟练度  
+- 挪威语：专业工作熟练度  
+- 中文：母语  
 
