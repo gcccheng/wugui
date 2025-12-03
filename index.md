@@ -2,398 +2,72 @@
 layout: cv
 title: 程刚中文简历
 ---
+
 # 程 刚（Gang Cheng）
 
 Red Hat 认证架构师（RHCA）｜基础架构工程师 / DevOps 工程师 / 平台工程师 / Developer Experience 工程师  
-
-2024 年 Red Hat Certified Professional of the Year（挪威年度唯一获奖者）  
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat 简介</a> |
 <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">LinkedIn</a>
 </div>
 
----
-
-# 🎯 概要（Summary）
+## 概要（Summary）
 
 程刚是一位自我驱动、持续成长的工程师，坚信持续学习和快速掌握新技术是 IT 工程师的核心能力。他长期主动构建现代基础架构与平台工程能力，通过持续的项目实践、认证、会议、课程以及与行业同行学习，不断强化自身技术广度与深度。
 
-2024 年，他荣获 **Red Hat Certified Professional of the Year** —— 这是 Red Hat 对个人技术能力的全球性认可，他也是当年挪威唯一获奖者。
-
-在他的职业生涯中，他担任过系统管理员、基础设施工程师、DevOps 工程师、开发者体验（DevEx）工程师、平台工程师或多角色融合的岗位。他在团队中始终以“解决问题、创造价值”为目标。
-
-凭借十年以上在不同规模与行业的基础设施环境中的经验，他成功为客户交付解决方案，创造价值，并与开发团队、研究团队保持紧密合作。他的沟通能力强，善于跨团队协作与推动落地。
-
----
-
-# 💼 Employment（工作经历）
-
----
-
-# ⭐ 2025–至今  
-# **Senior Platform Engineer｜Appear TV（挪威）**
-
-负责建设与维护现代化、高可用、高性能的基础设施平台，支持公司内部开发流程与产品交付。
-
----
-
-## 🔹 **构建和维护现代化、可扩展的基础设施，为开发者生产力和高性能应用提供支撑**
-
-### 使用的关键技术栈
-
-- 裸金属 Kubernetes 集群（由 Rancher 管理）
-- Flatcar（不可变式操作系统）
-- GitOps：GitLab、ArgoCD、Kustomize
-- Terraform 自动化（GitLab CI 触发 Terraform apply）
-- TrueNAS NFS 存储
-- Harbor 内部镜像仓库
-- VMware 虚拟机管理
-- 其他基础组件：ExternalDNS、Bind9、MetalLB、Replicator、GitLab Runners
-- 监控体系：Prometheus + Grafana
-- 与 CISO 协作确保 CI/CD 与平台全生命周期的安全与合规
-
----
-
-## 🔹 **项目：部署 Appear Hub 于 Azure（客户固件/文档/License 下载平台）**
-
-### 描述（Description）
-
-构建一个面向客户的软件交付平台，用于固件、文档、许可文件的安全下载。平台需要高可用、全球访问、安全控制与自动化交付能力。
-
-### 贡献（Contribution）
-
-- 使用 **Azure Container Apps** 部署后端服务，支持弹性扩缩容
-- 使用 **Azure Front Door** 提供全球路由、SSL、WAF、安全访问控制
-- 使用 **Azure Blob Storage** 存储固件、文档和许可证
-- GitLab CI 负责构建镜像、推送和自动部署
-- 使用 Azure Monitor 进行日志与监控
-- 确保系统满足企业安全与访问控制标准
-
-### 价值（Value Created）
-
-- 提升客户下载体验  
-- 提供现代化交付体系  
-- 显著降低运维成本  
-- 系统安全性与可审计性增强  
-
----
-
-# ⭐ 2022–2025  
-# **Senior Infrastructure Engineer｜Sopra Steria（挪威）**
-
-担任 DevOps/基础设施工程师，负责多个关键基础设施项目。以下为英文原文的逐条完整翻译：
-
----
-
-## 🔹 **项目：构建高可用 Kubernetes + GitHub Actions Runner Controller（ARC）平台（独立负责）**
-
-### 描述
-
-原基于 VM 的 Runner 存在扩展性差、竞争条件、隔离性不足等问题，需要迁移到 Kubernetes。
-
-### 贡献
-
-- 独自设计并实现高可用 Kubernetes 集群与 ARC 控制器
-- 构建动态 Runner，任务结束即销毁
-- 将所有 VM Runner 迁移到 Kubernetes
-- 重构 pipeline 并定义新部署流程
-- 建立监控、日志和日常运维体系
-
-### 价值
-
-- 实现弹性扩容和更高效率的 CI/CD 平台  
-- 显著提升可靠性、隔离性和可维护性  
-
----
-
-## 🔹 **项目：MinIO S3 Terraform 状态后端（独立负责）**
-
-### 描述
-
-Terraform 状态文件原本存储在本地磁盘，不支持协作、版本控制或审计。
-
-### 贡献
-
-- 在 Kubernetes 上部署 MinIO 并实现 S3 接口  
-- 将其整合至 GitHub Actions pipeline  
-- 配置访问控制、加密、版本化  
-- 将所有 Terraform 项目迁移至 MinIO 后端
-
-### 价值
-
-- 实现状态文件集中化、版本控制、安全管理  
-- 无需依赖公共云，完全满足合规要求  
-
----
-
-## 🔹 **项目：构建 GitOps 工作流（Argo CD）**
-
-### 描述
-
-开发团队需要一种自动化、统一的部署方式，可通过分支管理不同部署环境。
-
-### 贡献
-
-- 设计 GitOps 架构：GitHub → ArgoCD → Kubernetes  
-- 构建 Helm 可复用模板  
-- 使用 Kustomize 管理环境差异  
-- 设置项目 RBAC 与隔离策略  
-- 与开发团队一起重新设计部署生命周期
-
-### 价值
-
-- 部署自动化、可审计  
-- 显著降低开发者认知负担与运维工作量  
-- 部署更快速、更可靠  
-
----
-
-## 🔹 **项目：基础设施监控体系（Prometheus + Grafana）**
-
-### 描述
-
-随着 VM 与容器规模增长，需要统一监控平台。
-
-### 贡献
-
-- 在 Kubernetes 上部署 Prometheus 和 Grafana  
-- 定义告警规则  
-- 创建 VM、集群、应用的健康仪表板  
-- 联合团队定义监控策略
-
-### 价值
-
-- 提升系统透明度  
-- 更快定位性能瓶颈  
-- 提升可靠性  
-
----
-
-## 🔹 **项目：CI/CD 流水线故障排查与优化**
-
-### 描述
-
-开发团队面临 pipeline 错误、执行缓慢、行为不稳定等问题。
-
-### 贡献
-
-- 分析 pipeline 日志，定位错误根源  
-- 优化 Runner 配置、缓存、构建逻辑  
-- 清理与重构不稳定任务
-- 标准化流水线结构并改善开发者体验
-
-### 价值
-
-- 大幅提升 pipeline 稳定性  
-- 减少开发者排查时间  
-- 提高交付效率  
-
----
-
-## 🔹 **项目：基础设施标准化与自动化**
-
-### 描述
-
-基础环境存在不一致性，手动配置较多。
-
-### 贡献
-
-- 标准化操作系统版本、VM 模板、配置文件  
-- 编写自动化安装脚本和初始化流程  
-- 为生产环境建立统一准入规范
-
-### 价值
-
-- 提升一致性  
-- 降低运维成本  
-- 提升安全性  
-
----
-
-## 🔹 **项目：自动化升级 RHEL7 → RHEL8**
-
-### 描述
-
-RHEL7 即将 EOL，需要对大量服务器执行升级。
-
-### 贡献
-
-- 使用 Ansible 自动化升级流程  
-- 与应用团队合作进行兼容性验证  
-- 优化升级流程以减少停机时间
-
-### 价值
-
-- 满足安全与合规要求  
-- 降低人工升级成本  
-
----
-
-## 🔹 **项目：在 OpenShift 上部署 Ansible Automation Platform（AAP）**
-
-### 描述
-
-随着 Ansible Playbook 和 Inventory 增长，需要中央管理平台。
-
-### 贡献
-
-- 在 OpenShift 上部署 AAP  
-- 配置 Playbook、Inventory、Secrets  
-- 定义 RBAC 权限体系
-
-### 价值
-
-- 降低人为错误  
-- 提升自动化能力  
-
----
-
-## 🔹 **项目：部署 RHEL9 到生产**
-
-### 描述
-
-需要测试与部署 RHEL9，使其满足生产要求。
-
-### 贡献
-
-- 使用 Ansible 自动部署  
-- 制作 RHEL9 VMware 模板  
-- 集成 AD，确保兼容性
-
-### 价值
-
-- 为新系统提供可复用、可扩展的部署方式  
-
----
-
-## 🔹 **项目：Red Hat 虚拟机补丁自动化系统**
-
-### 描述
-
-手工补丁管理成本高、风险大。
-
-### 贡献
-
-- 使用 Satellite + Ansible 构建自动补丁流程  
-- 自动检测缺失补丁与执行升级  
-- 建立补丁基线和回滚策略
-
-### 价值
-
-- 提升安全性  
-- 降低维护开销  
-
----
-
-## 🔹 **项目：自动化部署 Red Hat VM（VMware）**
-
-### 描述
-
-规模化 VM 部署需要自动化能力。
-
-### 贡献
-
-- 使用 Ansible 完成自动化部署  
-- 包含网络、用户、包管理等完整流程  
-- 支持集群级部署
-
-### 价值
-
-- 提升部署速度与服务器一致性  
-
----
-
-## 🔹 **项目：部署关键应用（独立负责）**
-
-### 描述
-
-部署关键业务应用到基础设施环境。
-
-### 贡献
-
-- 负责安装、配置、调试  
-- 处理兼容性问题  
-- 确保应用满足组织政策与安全标准
-
-### 价值
-
-- 保证关键业务平台稳定运行  
-
----
-
-## 🔹 **项目：Splunk 实施（日志与指标平台）**
-
-### 描述
-
-需要统一日志收集与分析平台。
-
-### 贡献
-
-- 部署 Splunk Enterprise  
-- 配置日志索引与采集规则  
-- 构建基础设施健康监控 Dashboard  
-- 支持事件追踪与故障定位
-
-### 价值
-
-- 大幅提升可观测性  
-- 降低 MTTR（平均恢复时间）  
-
----
-
-# ⭐ 2012–2022  
-# **System Engineer｜University of Oslo（挪威）**
-
-以下为逐条完整翻译：
-
----
-
-## 🔹 **服务器与数据中心管理**
-
-- 采购、安装、配置与维护 Dell、HP、Red Hat 等企业服务器  
-- 管理科学计算、虚拟化（VMware / KVM）、数据库、Web 服务  
-- 管理 RAID、Samba、NFS 等存储系统  
-- 为科学研究提供高可靠、高性能计算环境  
-
----
-
-## 🔹 **Windows 设备部署与管理（SCCM）**
-
-- 使用 PXE 自动化部署 Windows  
-- 使用 Microsoft SCCM 管理客户端生命周期  
-- 自动化软件分发、补丁管理、安全策略
-
----
-
-## 🔹 **网络管理（Cisco）**
-
-- 负责私有实验室网络和公共网络  
-- 使用 Cisco 交换机与路由器  
-- NAT、网络隔离、端口管理  
-- 维护数据中心网络安全与稳定性  
-
----
-
-## 🔹 **科研软件与复杂依赖管理**
-
-- 部署、配置复杂科研软件  
-- 解决软件依赖不明确、版本冲突等问题  
-- 与研究人员合作优化计算环境  
-
----
-
-## 🔹 **高性能计算（HPC）支持**
-
-- 提供 HPC 集群用户培训  
-- 支持作业提交、并行计算优化  
-- 协助研究数据处理与集群调优  
-
----
-
-# 📜 Certificates（证书）
-
-（按英文原文完整翻译、顺序一致）
+2024 年，他荣获 Red Hat Certified Professional of the Year，这是 Red Hat 对个人技术能力的全球性认可，他也是当年挪威唯一获奖者。
+
+他在职业生涯中担任过系统管理员、基础设施工程师、DevOps 工程师、开发者体验（DevEx）工程师、平台工程师等角色。凭借十年以上在不同规模与行业的基础设施环境中的经验，他成功为客户交付解决方案，创造价值，并与开发团队、研究团队保持紧密合作，善于跨团队协作与推动落地。
+
+## 工作经历（Employment）
+
+`2025–至今`  
+**Senior Platform Engineer — Appear TV, Oslo**
+
+- 构建并维护基于裸金属的 **Kubernetes 集群**，通过 Rancher 进行集中管理，运行在 Flatcar 不可变操作系统之上，支持内部 R&D 团队（Rust、C++、Python、Yocto、TypeScript）。
+- 设计端到端 **GitOps 工作流**：使用 GitLab CI + Argo CD + Kustomize，实现应用自动化部署、多环境配置管理和可审计变更。
+- 使用 **Terraform** 管理基础设施，通过 GitLab pipeline 触发 `terraform apply`，实现版本化、可回滚的基础设施即代码（IaC）。
+- 集成并维护 **TrueNAS NFS**、Harbor 镜像仓库、VMware、ExternalDNS、Bind9、MetalLB、Replicator、GitLab Runners 等平台组件。
+- 搭建 **Prometheus + Grafana** 监控体系，为集群、应用和 CI/CD 提供指标、仪表盘和告警。
+- 与 CISO 紧密合作，从 RBAC、网络策略、镜像安全、流水线权限等方面提升平台的安全性与合规性。
+
+**项目：在 Azure 部署 Appear Hub（客户固件/文档/License 下载平台）**
+
+- 设计并实现面向客户的交付平台，用于固件、产品文档及 License 文件的安全分发。  
+- 使用 **Azure Container Apps** 承载后端服务，实现弹性伸缩与容器化部署。  
+- 使用 **Azure Front Door** 实现全球路由、SSL 终止、WAF 防护及访问控制。  
+- 利用 **Azure Blob Storage** 存储固件、文档和许可证，支持高并发访问。  
+- 基于 **GitLab CI/CD** 实现自动构建、推送镜像和部署，集成基础设施配置。  
+- 通过 **Azure Monitor** 收集日志和指标，构建运行可观测性。  
+
+`2022–2025`  
+**Senior Infrastructure Engineer — Sopra Steria, Oslo**
+
+- 作为 DevOps / 基础设施工程师，为大型客户设计与实施现代基础设施平台。  
+- 独立设计并部署高可用 **Kubernetes + GitHub Actions Runner Controller (ARC)** 平台，将自托管 Runner 从 VM 迁移到容器化 Runner，支持动态创建与自动回收。
+- 在 Kubernetes 上部署 **MinIO S3 后端** 作为 Terraform 状态存储，解决本地状态文件缺乏协作与版本控制的问题，在不依赖公有云的前提下提供集中化、可审计的 state backend。
+- 使用 **Argo CD + Helm + Kustomize** 构建 GitOps 部署流，允许开发团队通过 Git 分支选择部署环境，实现自助化、自动化发布。
+- 在 Kubernetes 上部署 **Prometheus + Grafana**，统一监控容器与 VM，定义告警规则和基础设施健康仪表盘。
+- 深入排查和优化 CI/CD 流水线，改善 pipeline 稳定性与执行效率，减少开发团队在流水线问题上的时间消耗。
+- 对大规模 **RHEL7→RHEL8** 升级进行规划与 Ansible 自动化，实现合规升级与可控停机。
+- 在 OpenShift 上部署 **Ansible Automation Platform (AAP)**，集中管理 Playbook、Inventory 与机密信息，构建自动化运维平台。
+- 使用 Ansible 和 Red Hat Satellite 自动化补丁与 VM 部署，标准化基础设施，降低人为错误和维护成本。
+- 独立部署关键业务应用到生产环境，负责安装、配置、故障排查与合规性验证。
+- 部署并维护 **Splunk** 日志平台，集中收集基础设施日志和性能数据，构建可观测性，缩短故障定位时间。
+
+`2012–2022`  
+**System Engineer — University of Oslo, Oslo**
+
+- 管理本地数据中心，为分子医学研究中心（NCMM）的科研人员提供可靠的科学计算基础设施。  
+- 采购、安装、配置和维护 Dell、HP、Red Hat 等企业级服务器，管理科学计算、虚拟化（VMware/KVM）、数据库、Web 服务以及 RAID / Samba / NFS 等存储系统。
+- 使用 **SCCM** 和 PXE 部署 Windows 客户端，负责软件分发、补丁更新和安全策略实施。
+- 管理实验室内网和公共网络，使用 Cisco 交换机和路由器，实现 NAT、网络隔离、端口管理和日常故障排查。
+- 安装和维护复杂科研软件，处理依赖不清晰、版本冲突等问题，协助研究人员优化计算环境。
+- 使用 Nagios、Zabbix 等工具进行日常监控和告警，处理访问控制、存储管理和安全评估。
+- 为使用 HPC 集群的科研人员提供支持与培训，协助作业提交、并行计算优化和数据密集型工作流。
+
+## 证书（Certificates）
 
 - Red Hat Certified Professional of the Year 2024  
 - Red Hat Certified Architect  
@@ -404,96 +78,75 @@ RHEL7 即将 EOL，需要对大量服务器执行升级。
 - Red Hat Certified Engineer  
 - Red Hat Certified System Administrator  
 - Microsoft Certified: Azure Fundamentals  
-- Red Hat Certified Specialist in Containers and Kubernetes
+- Red Hat Certified Specialist in Containers and Kubernetes  
 
----
-
-# 📚 Events & Conference（会议与活动）
+## 会议与活动（Events & Conference）
 
 - Cloud Native Day Oslo 2025  
 - Red Hat Summit & Ansible Fest  
 
----
-
-# ✍ Articles（文章）
+## 文章（Articles）
 
 - 《Let’s talk about troubleshooting》  
 - 《Challenges, tips, and rewards: working as a consultant in Norway》  
 - 《Cloud Native Day Oslo — From DevOps to DevEx》  
 
----
-
-# 🎓 Courses（课程）
-
-（全量翻译）
+## 课程（Courses）
 
 - Google Cloud Fundamentals  
 - NVIDIA：AI Infrastructure and Operations  
 - GenAI for DevOps Practitioners  
-- Linux Foundation：Introduction to DevOps and SRE  
-- Linux Foundation：Cloud Infrastructure Technologies  
+- Linux Foundation：Introduction to DevOps and Site Reliability Engineering  
+- Linux Foundation：Introduction to Cloud Infrastructure Technologies  
 - Microsoft Azure Fundamentals  
 - Intrusion Detection and Firewalls  
-- Enterprise Networking  
+- Enterprise Networking: Practices and Technologies  
 - Research Methods and Data Analysis  
 - Mastering Ansible  
 - Introduction to programming with scientific applications  
-- Red Hat：Containers, Kubernetes & OpenShift Fundamentals
+- Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift  
 
----
-
-# 🧪 Workshops（工作坊）
+## 工作坊（Workshops）
 
 - Azure Red Hat OpenShift AI  
-- AWS RAG & Fine-tuning  
-- HPC hands-on workshops  
-- Cilium Deep Dive  
-- Git 版本控制  
-- Cryptography & SSH  
-- Python Scientific Computing  
-- OpenStack 虚拟化架构  
-- UiO AI Hub  
+- AWS RAG and Fine-tuned AI  
+- Using the High Performance Computing cluster for Educloud Research users  
+- Cilium Hands-On Workshop & Deep Dive Oslo  
+- Version Control with Git  
+- Cryptography and SSH remote logins  
+- Python for Scientific Computing  
+- Virtualized research architecture using OpenStack  
+- AI at UiO  
 
----
-
-# 🔧 技术栈（Experienced Tech Stacks）
+## 技术栈（Experienced Tech Stacks）
 
 - Kubernetes、Docker、Podman  
-- GitHub Actions、GitHub ARC  
-- Red Hat Linux、Satellite、OpenShift、Ansible  
-- Bitbucket、Confluence、Jira  
-- Grafana、Prometheus  
-- Dell PowerEdge、Cisco  
+- GitHub Actions、GitHub Actions Runner Controller (ARC)  
+- Red Hat Linux、Red Hat Satellite、Red Hat OpenShift、Red Hat Ansible  
+- Atlassian Bitbucket、Confluence、Jira  
+- Grafana、Prometheus、Splunk  
+- Dell PowerEdge、Cisco 交换设备  
 - Windows Server、SCCM  
-- Samba、NFS、FirewallD、AD  
+- Samba、NFS、FirewallD、Active Directory  
 
----
-
-# 🌱 Exposure Skills（其他接触技能）
+## 其他接触技能（Exposure Skills）
 
 - AWS  
-- Azure  
+- Microsoft Azure  
 - OpenStack  
 - Vagrant  
 
----
+## 教育背景（Education）
 
-# 🎓 教育背景（Education）
+`2010–2012`  
+**University of Oslo — Master in Network and System Administration**
 
-**University of Oslo（2010–2012）**  
-硕士：Network and System Administration
+## 兴趣（Hobbies）
 
----
+博客写作、滑雪、徒步  
 
-# 🧗 兴趣（Hobbies）
-
-博客写作、滑雪、徒步旅行
-
----
-
-# 🌐 语言（Languages）
+## 语言（Languages）
 
 - 英语：专业工作熟练度  
 - 挪威语：专业工作熟练度  
 - 中文：母语  
-
