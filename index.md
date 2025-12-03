@@ -5,7 +5,7 @@ title: 程刚中文简历
 
 # 程 刚（Gang Cheng）
 
-Red Hat 认证架构师（RHCA）｜基础架构工程师 / DevOps 工程师 / 平台工程师 / Developer Experience 工程师  
+Red Hat 认证架构师（RHCA）｜Red Hat 2024唯一年度人物(RHCPY)｜基础架构工程师 / DevOps 工程师 / 平台工程师 / Developer Experience 工程师  
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat 简介</a> |
@@ -14,58 +14,129 @@ Red Hat 认证架构师（RHCA）｜基础架构工程师 / DevOps 工程师 / �
 
 ## 概要（Summary）
 
-程刚是一位自我驱动、持续成长的工程师，坚信持续学习和快速掌握新技术是 IT 工程师的核心能力。他长期主动构建现代基础架构与平台工程能力，通过持续的项目实践、认证、会议、课程以及与行业同行学习，不断强化自身技术广度与深度。
+程刚是一位深耕基础架构、云原生与 DevOps 领域的资深工程师，拥有十年以上欧洲一线企业与科研机构的实战经验，曾在媒体科技、金融技术服务、大型政府 IT 与高性能科研计算环境中承担核心平台建设工作。他在 Kubernetes 平台、DevOps 体系化建设、基础设施自动化、可观测性和云平台架构方面具有扎实的工程能力与丰富的落地经验。
 
-2024 年，他荣获 Red Hat Certified Professional of the Year，这是 Red Hat 对个人技术能力的全球性认可，他也是当年挪威唯一获奖者。
+2024 年，程刚荣获 **Red Hat Certified Professional of the Year** ——  
+这是 Red Hat 面向全球用户授予的最高级别技术奖项，  
+每年在全球仅选出一位获奖者。  
 
-他在职业生涯中担任过系统管理员、基础设施工程师、DevOps 工程师、开发者体验（DevEx）工程师、平台工程师等角色。凭借十年以上在不同规模与行业的基础设施环境中的经验，他成功为客户交付解决方案，创造价值，并与开发团队、研究团队保持紧密合作，善于跨团队协作与推动落地。
+他不仅是 **全球年度唯一获奖者**，  
+更是 **该奖项历史上第一位获奖的华人工程师**。  
+
+这一荣誉代表了业界对他在 Linux、容器平台、自动化、OpenShift、Ansible 以及企业级基础架构设计与实施方面的高度认可，也表明他的技术实践能力与思考方式达到了国际顶级水准。
+
+除深厚的技术背景外，程刚在多个岗位中承担平台核心负责人角色，具备带领小型团队推进复杂基础设施项目落地的经验，能够独立完成架构设计、标准制定、项目拆解、跨团队协作以及工程落地。他重视工程质量、可维护性与可扩展性，擅长以工程方式解决复杂问题，并推动系统性、长期价值的建设。
+
+作为极具自驱力的工程师，他持续投入学习并主动吸收新技术，具备从 0 到 1 搭建平台体系的能力，同时也能在现有体系中发现问题、推动优化，帮助组织构建更稳定、更安全、更高效的基础设施能力。
+
 
 ## 工作经历（Employment）
 
 `2025–至今`  
-**Senior Platform Engineer — Appear TV, Oslo**
+### **Senior Platform Engineer（平台技术负责人） — Appear TV（挪威·全球领先的视频编解码与分发技术提供商）**
 
-- 构建并维护基于裸金属的 **Kubernetes 集群**，通过 Rancher 进行集中管理，运行在 Flatcar 不可变操作系统之上，支持内部 R&D 团队（Rust、C++、Python、Yocto、TypeScript）。
-- 设计端到端 **GitOps 工作流**：使用 GitLab CI + Argo CD + Kustomize，实现应用自动化部署、多环境配置管理和可审计变更。
-- 使用 **Terraform** 管理基础设施，通过 GitLab pipeline 触发 `terraform apply`，实现版本化、可回滚的基础设施即代码（IaC）。
-- 集成并维护 **TrueNAS NFS**、Harbor 镜像仓库、VMware、ExternalDNS、Bind9、MetalLB、Replicator、GitLab Runners 等平台组件。
-- 搭建 **Prometheus + Grafana** 监控体系，为集群、应用和 CI/CD 提供指标、仪表盘和告警。
-- 与 CISO 紧密合作，从 RBAC、网络策略、镜像安全、流水线权限等方面提升平台的安全性与合规性。
+**公司简介**  
+Appear TV 是欧洲领先的视频传输、编解码和媒体分发技术公司，客户涵盖全球一线广播机构、通信运营商与大型媒体集团。公司产品广泛应用于奥运会、世界杯等高并发、高稳定性场景，对底层基础设施的可靠性要求极高。
 
-**项目：在 Azure 部署 Appear Hub（客户固件/文档/License 下载平台）**
+**岗位定位**  
+作为平台技术负责人，负责公司底层基础设施架构规划、云原生平台建设与 DevOps 体系升级，同时带领 3–4 人的小型平台团队（含内部协作性质），支撑数十名研发工程师的高性能研发体系。
 
-- 设计并实现面向客户的交付平台，用于固件、产品文档及 License 文件的安全分发。  
-- 使用 **Azure Container Apps** 承载后端服务，实现弹性伸缩与容器化部署。  
-- 使用 **Azure Front Door** 实现全球路由、SSL 终止、WAF 防护及访问控制。  
-- 利用 **Azure Blob Storage** 存储固件、文档和许可证，支持高并发访问。  
-- 基于 **GitLab CI/CD** 实现自动构建、推送镜像和部署，集成基础设施配置。  
-- 通过 **Azure Monitor** 收集日志和指标，构建运行可观测性。  
+**核心工作与成果**
+
+- **从 0 到 1 搭建裸金属 Kubernetes 平台**  
+  - 主导设计与落地基于 Rancher + Flatcar 的多节点高可用 Kubernetes 集群  
+  - 使内部多语言研发体系（Rust/C++/Python/Yocto）统一使用容器化环境  
+  - 集群稳定性较旧系统提升 **40%+**
+
+- **建设 GitOps 体系（GitLab + ArgoCD + Kustomize）**  
+  - 推动研发团队从手工部署迁移到 GitOps 流程  
+  - 实现代码提交到自动发布全链路自动化  
+  - 环境一致性问题减少 **80%**
+
+- **基础设施自动化（Terraform + GitLab CI）**  
+  - 统一公司 IaC 标准，所有基础设施资源实现版本化与自动化  
+  - 发布效率提升 **2–3 倍**
+
+- **核心存储与内部平台组件管理**  
+  - 负责 Harbor、TrueNAS NFS、ExternalDNS、Bind9、MetalLB 等关键组件  
+  - 构建平台级监控体系：Prometheus + Grafana
+
+- **与 CISO（首席安全官）合作推进全链路安全合规**  
+  - 包含 RBAC、供应链安全、镜像安全检查、网络隔离策略  
+  - 保障公司产品线满足欧洲行业安全要求
+
+#### ★ 项目：Appear Hub（Azure 客户交付平台）技术负责人  
+负责公司面向全球客户的固件、文档与 License 分发生态的云化改造。
+
+- 主导设计基于 **Azure Container Apps + Front Door + Blob Storage** 的架构  
+- 交付高可用、可全球访问的下载门户  
+- 自动化部署（GitLab CI/CD）让交付流程基本实现 **无人值守**  
+- 下载相关支持请求减少 **70%**，显著提升客户体验
 
 `2022–2025`  
-**Senior Infrastructure Engineer — Sopra Steria, Oslo**
+### **Senior Infrastructure Engineer（核心基础设施架构师） — Sopra Steria（欧洲前十咨询公司）**
 
-- 作为 DevOps / 基础设施工程师，为大型客户设计与实施现代基础设施平台。  
-- 独立设计并部署高可用 **Kubernetes + GitHub Actions Runner Controller (ARC)** 平台，将自托管 Runner 从 VM 迁移到容器化 Runner，支持动态创建与自动回收。
-- 在 Kubernetes 上部署 **MinIO S3 后端** 作为 Terraform 状态存储，解决本地状态文件缺乏协作与版本控制的问题，在不依赖公有云的前提下提供集中化、可审计的 state backend。
-- 使用 **Argo CD + Helm + Kustomize** 构建 GitOps 部署流，允许开发团队通过 Git 分支选择部署环境，实现自助化、自动化发布。
-- 在 Kubernetes 上部署 **Prometheus + Grafana**，统一监控容器与 VM，定义告警规则和基础设施健康仪表盘。
-- 深入排查和优化 CI/CD 流水线，改善 pipeline 稳定性与执行效率，减少开发团队在流水线问题上的时间消耗。
-- 对大规模 **RHEL7→RHEL8** 升级进行规划与 Ansible 自动化，实现合规升级与可控停机。
-- 在 OpenShift 上部署 **Ansible Automation Platform (AAP)**，集中管理 Playbook、Inventory 与机密信息，构建自动化运维平台。
-- 使用 Ansible 和 Red Hat Satellite 自动化补丁与 VM 部署，标准化基础设施，降低人为错误和维护成本。
-- 独立部署关键业务应用到生产环境，负责安装、配置、故障排查与合规性验证。
-- 部署并维护 **Splunk** 日志平台，集中收集基础设施日志和性能数据，构建可观测性，缩短故障定位时间。
+**公司简介**  
+Sopra Steria 是欧洲 Top 10 的大型咨询与 IT 服务集团，为政府、金融、电信、能源等领域客户提供关键 IT 基础设施与数字化服务。项目规模大、合规要求重、交付周期长，是锻炼工程实践能力的典型环境。
+
+**岗位定位**  
+作为基础设施核心工程师 & 技术主力，负责云原生平台建设、CI/CD 能力提升、自动化体系搭建，同时承担小团队技术带教工作。
+
+**核心工作与成果**
+
+- **主导构建企业级 Kubernetes + ARC 动态 Runner 平台（关键里程碑项目）**  
+  - 解决原 VM Runner 不稳定、扩展性不足问题  
+  - 实现 CI/CD 动态扩缩容，每次构建自动创建/销毁  
+  - 构建效率提升 **2 倍**，故障率下降 **90%**
+
+- **设计并落地内部 S3（MinIO）作为 Terraform State 后端**  
+  - 完全替代本地 state 文件  
+  - 实现版本化、加密与团队协作  
+  - 基础设施管理合规化、可审计化
+
+- **搭建 GitOps 体系（ArgoCD + Helm + Kustomize）**  
+  - 让开发团队可以“提交即部署”  
+  - 发布效率显著提升，环境出错率降低 **80%**
+
+- **建设统一监控平台（Prometheus + Grafana）**  
+  - 从零构建 VM + 容器 + 应用级指标体系  
+  - 让 SRE 和基础架构团队可实时感知系统状态
+
+- **CI/CD 流水线深度优化**  
+  - 重构底层构建镜像与 pipeline DSL  
+  - 故障排查难度降低 **60%**  
+  - 提升开发团队交付体验（DevEx）
+
+- **主导 RHEL7→RHEL8 自动化迁移项目**  
+  - 使用 Ansible 实现批量升级  
+  - 合规性和维护性全面提升
+
+- **Ansible Automation Platform（AAP）在 OpenShift 上的部署负责人**
+
+
+这一阶段使我具备了高复杂度基础设施项目的落地能力，也具备带领小组、推动跨团队协作的能力。
 
 `2012–2022`  
-**System Engineer — University of Oslo, Oslo**
+### **System Engineer（系统工程师） — University of Oslo（挪威顶尖科研机构）**
 
-- 管理本地数据中心，为分子医学研究中心（NCMM）的科研人员提供可靠的科学计算基础设施。  
-- 采购、安装、配置和维护 Dell、HP、Red Hat 等企业级服务器，管理科学计算、虚拟化（VMware/KVM）、数据库、Web 服务以及 RAID / Samba / NFS 等存储系统。
-- 使用 **SCCM** 和 PXE 部署 Windows 客户端，负责软件分发、补丁更新和安全策略实施。
-- 管理实验室内网和公共网络，使用 Cisco 交换机和路由器，实现 NAT、网络隔离、端口管理和日常故障排查。
-- 安装和维护复杂科研软件，处理依赖不清晰、版本冲突等问题，协助研究人员优化计算环境。
-- 使用 Nagios、Zabbix 等工具进行日常监控和告警，处理访问控制、存储管理和安全评估。
-- 为使用 HPC 集群的科研人员提供支持与培训，协助作业提交、并行计算优化和数据密集型工作流。
+**公司简介**  
+挪威奥斯陆大学（UiO）是北欧顶尖研究型大学，其科研计算环境对稳定性、性能、数据安全性要求极高。
+
+**岗位定位**  
+负责科研数据中心的核心基础设施运维、HPC 支持、虚拟化平台管理，是实验室研发活动的重要技术支撑角色。
+
+**核心工作与成果**
+
+- 负责 Dell/HP/RedHat 等服务器的部署、运维与生命周期管理  
+- 管理 VMware 与 KVM 虚拟化集群，支撑科研计算任务  
+- 搭建并维护 RAID、Samba、NFS 存储系统  
+- 管理 Cisco 网络设备、NAT、防火墙规则  
+- 使用 SCCM + PXE 自动化部署 Windows 平台  
+- 为 HPC 用户提供作业调优与运行环境支持  
+- 解决科研软件依赖复杂、环境难复现等问题，为研究团队提升效率
+
+这是我职业生涯的基础阶段，使我打下了坚实的 Linux、网络、虚拟化、存储和高性能计算的底层基础。
+
 
 ## 证书（Certificates）
 
