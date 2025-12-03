@@ -125,3 +125,44 @@ h1 {
 header, #main h1 {
     margin-bottom: 20px !important;
 }
+/* -------------------------------------- */
+/*  Fix PDF Empty Space / Remove Sidebar  */
+/* -------------------------------------- */
+
+@media print {
+
+  /* 强制禁用两栏布局，改为全宽 */
+  #sidebar {
+    display: none !important;
+  }
+
+  #content, #main {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 去掉print模式中的固定定位 */
+  #sidebar, header, footer {
+    position: static !important;
+  }
+
+  /* 减少打印时的边距（让内容紧凑） */
+  body {
+    margin: 10mm 12mm !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* 避免标题跨页 */
+  h2, h3, h4 {
+    page-break-after: avoid !important;
+    page-break-before: avoid !important;
+  }
+
+  /* 避免列表断裂 */
+  ul, li {
+    page-break-inside: avoid !important;
+  }
+}
+
