@@ -14,7 +14,7 @@ Red Hat 认证架构师（RHCA）｜Red Hat 2024唯一年度人物(RHCP)｜基�
 
 ## 概要（Summary）
 
-程刚是一位深耕基础架构、云原生与 DevOps 领域的资深工程师，拥有十年以上欧洲一线企业与科研机构的实战经验，曾在媒体科技、金融技术服务、大型政府 IT 与高性能科研计算环境中承担核心平台建设工作。他在 Kubernetes 平台、DevOps 体系化建设、基础设施自动化、可观测性和云平台架构方面具有扎实的工程能力与丰富的落地经验。
+程刚是一位深耕基础架构、云原生与 DevOps 领域的资深工程师，开源拥趸，拥有十年以上欧洲一线企业与科研机构的实战经验，曾在媒体科技、金融技术服务、大型政府 IT 与高性能科研计算环境中承担核心平台建设工作。他在 Kubernetes 平台、DevOps 体系化建设、基础设施自动化、可观测性和云平台架构方面具有扎实的工程能力与丰富的落地经验。
 
 2024 年，程刚荣获 **Red Hat Certified Professional of the Year** ——  
 这是 Red Hat 面向全球用户授予的最高级别技术奖项，  
@@ -58,7 +58,7 @@ Appear TV 是欧洲领先的视频传输、编解码和媒体分发技术公司�
   - 负责 Harbor、TrueNAS NFS、ExternalDNS、Bind9、MetalLB 等基础组件  
   - 构建平台级监控体系（Prometheus + Grafana）
 
-- **与 CISO 合作推进全链路安全合规**  
+- **与 首席信息安全官CISO 合作推进全链路安全合规**  
   - 覆盖 RBAC、供应链安全、镜像扫描、网络隔离策略  
   - 确保平台满足欧洲行业安全要求
 
@@ -73,14 +73,9 @@ OpenWebUI 是当前最受工程团队欢迎的轻量级企业级 LLM 平台，�
 **个人角色与贡献（Contribution）**  
 - 项目技术 Owner，从 0 到 1 设计并落地 Appear 内部 AI 平台  
 - 评估 OpenWebUI、Ollama、LM Studio 等主流 LLM 平台并主导最终选型  
-- 设计平台整体架构，包括容器化部署、模型管理、插件功能、并发优化等  
-- 为内部研发团队提供统一的 AI 入口，带领 2–3 人小组完成部署、调优与持续改进  
-- 引入工具体系（Tools），实现代码分析、错误解释、文档摘要等常用功能  
-- 推动 AI 能力融入公司研发流程，建立内部 AI 使用规范
-
-**项目价值（Value Created）**  
-- 建立公司首个 **统一 AI 能力入口（AI Portal）**  
-- AI使用效率显著提高，并让AI的使用变得可控可管理，符合安全标准
+- 设计平台整体架构，包括容器化部署、模型管理、pipeline功能、rag功能等  
+- 为内部研发团队提供**统一 AI能力入口（AI Portal）** ，带领 2–3 人小组完成部署、调优与持续改进  
+- 推动 AI 能力融入公司研发流程，建立内部 AI 使用规范，并让AI的使用变得可控可管理，符合安全标准
 - 为 RAG、代码库索引、文档自动生成等未来 AI 能力奠定平台基础  
 - 强化公司在欧洲媒体技术领域的创新能力
 
@@ -93,8 +88,8 @@ OpenWebUI 是当前最受工程团队欢迎的轻量级企业级 LLM 平台，�
 
 **个人角色与贡献（Contribution）**  
 - 主导整体架构设计，使用 **Azure Container Apps + Front Door + Blob Storage**  
-- 构建自动化交付流水线（GitLab CI/CD），从打包、构建到部署全链路无人值守  
-- 提供全球加速、高可用、安全访问策略（含 WAF、安全路由）
+- 构建自动化交付流水线（GitLab CI/CD），从打包、构建到部署全链路  
+- 提供全球加速、高可用、安全访问策略
 
 **项目价值（Value Created）**  
 - 客户访问体验显著提升  
@@ -132,17 +127,17 @@ Sopra Steria 是欧洲 Top 10 的大型咨询与 IT 服务集团，为政府、�
   - 让 SRE 和基础架构团队可实时感知系统状态
 
 - **CI/CD 流水线深度优化**  
-  - 重构底层构建镜像与 pipeline DSL  
+  - 重构底层构建镜像与 pipeline   
   - 故障排查难度降低 
   - 提升开发团队交付体验（DevEx）
 
 - **主导 RHEL7→RHEL8 自动化迁移项目**  
-  - 使用 Ansible 实现批量升级  
+  - 使用 Ansible 实现大规模Red Hat批量升级  
   - 合规性和维护性全面提升
 
 - **Ansible Automation Platform（AAP）在 OpenShift 上的部署负责人**
   - 设计，安装，部署AAP
-  - 迁移自动化Ansible工作流到AAP
+  - 迁移大规模Ansible工作流到AAP平台
 
 这一阶段使我具备了高复杂度基础设施项目的落地能力，也具备带领小组、推动跨团队协作的能力。
 
@@ -159,10 +154,10 @@ Sopra Steria 是欧洲 Top 10 的大型咨询与 IT 服务集团，为政府、�
 
 - 负责 Dell/HP/RedHat 等服务器的部署、运维与生命周期管理  
 - 管理 VMware 与 KVM 虚拟化集群，支撑科研计算任务  
-- 搭建并维护 RAID、Samba、NFS 存储系统  
+- 搭建并维护 RAID、Samba、NFS，Nagios，存储系统，内部网络，私有dns域，私有dhcp域  
 - 管理 Cisco 网络设备、NAT、防火墙规则  
 - 使用 SCCM + PXE 自动化部署 Linux和Windows 平台  
-- 为 HPC 用户提供作业调优与运行环境支持  
+- 为 HPC 用户提供作业调优与运行环境支持，为科研人员调试排除英伟达GPU故障
 - 解决科研软件依赖复杂、环境难复现等问题，为研究团队提升效率
 
 这是我职业生涯的基础阶段，使我打下了坚实的 Linux、网络、虚拟化、存储和高性能计算的底层基础。
@@ -184,7 +179,20 @@ Sopra Steria 是欧洲 Top 10 的大型咨询与 IT 服务集团，为政府、�
 ## 会议与活动（Events & Conference）
 
 - Cloud Native Day Oslo 2025  
-- Red Hat Summit & Ansible Fest  
+- Red Hat Summit & Ansible Fest
+
+## 其他项目（Other Projects）
+
+- Build multi-model Generative AI experiences on Azure Openshift
+- Provision VM using Terraform and Configuring CI/CD pipeline on Azure
+- Build Proxmox virtual infrastructure for complex IT system
+- Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
+- Integrate Linux to Windows Domain
+- Build modern inventory system with OCS inventory
+- Set up local directory service with OpenLDAP
+- Set up Windows Server Update Services for lab network
+- Using Apache Guacamole as free and open-source cross-platform Remote Desktop Gateway
+- Intrusion detection and monitoring with Snort and Munin
 
 ## 文章（Articles）
 
@@ -240,7 +248,9 @@ Sopra Steria 是欧洲 Top 10 的大型咨询与 IT 服务集团，为政府、�
 ## 教育背景（Education）
 
 `2010–2012`  
-**University of Oslo — Master in Network and System Administration**
+**奥斯陆大学 — 网络与系统管理硕士 - 硕士**
+`2006–2010` 
+**中国传媒大学 - 计算机技术 - 学士**
 
 ## 兴趣（Hobbies）
 
