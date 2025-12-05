@@ -199,17 +199,17 @@ Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥
 
 ## 证书（Certificates）
 
-- Red Hat Certified Professional of the Year 2024  
-- Red Hat Certified Architect  
-- Red Hat Certified Specialist in Containers  
-- Red Hat Certified OpenShift Administrator  
-- Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform  
-- Red Hat Certified Specialist in Deployment and Systems Management  
-- Red Hat Certified Engineer  
-- Red Hat Certified System Administrator
-- NVIDIA AI Infrastructure and Operations Fundamentals
-- Microsoft Certified: Azure Fundamentals  
-- Red Hat Certified Specialist in Containers and Kubernetes  
+- Red Hat 2024 年度认证专业人士（Red Hat Certified Professional of the Year 2024）
+- Red Hat 认证架构师（Red Hat Certified Architect）
+- Red Hat 容器认证专家（Red Hat Certified Specialist in Containers）
+- Red Hat OpenShift 管理员认证（Red Hat Certified OpenShift Administrator）
+- Red Hat Ansible 自动化平台管理认证专家（Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform）
+- Red Hat 系统部署与管理认证专家（Red Hat Certified Specialist in Deployment and Systems Management）
+- Red Hat 认证工程师（Red Hat Certified Engineer，RHCE）
+- Red Hat 认证系统管理员（Red Hat Certified System Administrator，RHCSA）
+- Red Hat 容器与 Kubernetes 认证专家（Red Hat Certified Specialist in Containers and Kubernetes）
+- 英伟达AI基础设施与运维基础认证（NVIDIA AI Infrastructure and Operations Fundamentals）
+- 微软 Azure 基础认证（Microsoft Certified: Azure Fundamentals）
 
 ## 会议与活动（Events & Conference）
 
