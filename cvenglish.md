@@ -51,6 +51,7 @@ Designed and delivered Appear’s internal AI platform based on OpenWebUI to sup
 - Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Replicator and GitLab Runners.
 - Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
 - Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward ISO 27001 / SOC 2 certification readiness.
+- Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security (SBOM/signing), and audit logging.
 
 
 `2022-2025`
