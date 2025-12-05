@@ -12,12 +12,14 @@ Red Hat Certified Architect, Red Hat Certified Professional of the Year, Infrast
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, and most importantly, through industry peers. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated engineer who believes that continuous learning and the ability to rapidly adopt new technologies are essential qualities of a modern infrastructure professional. Throughout his career, he has proactively built expertise in designing and operating large-scale systems through hands-on projects, professional certifications, technical workshops, conferences, courses, and collaboration with industry peers. His dedication and technical depth were formally recognized when he was named the **Red Hat Certified Professional of the Year 2024**, the sole global recipient of the award.
 
-In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) 
- Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. No matter what title it could be, Gang adapts to what is needed for the team.
+Beyond his strong foundation in Red Hat technologies, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. His experience spans on-premises data centers, cloud-native platforms, and high-performance computing environments. At the University of Oslo, he contributed to the build-out and operation of the institution’s HPC cluster—working with distributed compute nodes, NVIDIA GPU servers, high-speed interconnects, and Slurm-based job scheduling—laying the groundwork for his later specialization in distributed systems and large-scale infrastructure reliability.
 
-With over a decade of hands-on experience in various IT infrastructure environments, he successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and create values.
+He has worked in both small and large engineering teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) Engineer, and Platform Engineer—often combining responsibilities depending on project needs. Regardless of title, Gang adapts to what the team and environment require.
+
+With over a decade of hands-on experience across diverse IT infrastructure environments, he has successfully delivered stable, high-performance platforms, created value for stakeholders, and collaborated closely with developers, researchers, and cross-functional teams. His strong communication skills, structured thinking, and collaborative mindset continue to enable him to drive meaningful contributions in complex engineering organizations.
+
 
 
 ## Employment
