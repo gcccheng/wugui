@@ -216,27 +216,18 @@ OBS is the International Olympic Committee’s broadcast organization responsibl
 
 
 ## Certificate
-<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
-
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Architect</a>
-
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Containers</a>
-
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified OpenShift Administrator</a>
-
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform
-</a>
-
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Deployment and Systems Management</a>
-
-<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Engineer</a>
-
-<a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
-
-<a href="https://www.credly.com/earner/earned/badge/ec0cd8f2-d4d4-472b-b143-1a93702989dd"> Microsoft Certified: Azure Fundamentals</a>
-
-<a href="https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes"> Red Hat Certified Specialist in Containers and Kubernetes</a>
-
+- Red Hat Certified Professional of the Year 2024  
+- Red Hat Certified Architect  
+- Red Hat Certified Specialist in Containers  
+- Red Hat Certified OpenShift Administrator  
+- Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform  
+- Red Hat Certified Specialist in Deployment and Systems Management  
+- Red Hat Certified Engineer  
+- Red Hat Certified System Administrator
+- NVIDIA AI Infrastructure and Operations Fundamentals
+- Microsoft Certified: Azure Fundamentals  
+- Red Hat Certified Specialist in Containers and Kubernetes
+- 
 ## Events & Conference
 
 <a href="https://cloud-native-day-oslo-2025.sessionize.com/schedule"> Cloud Native Day Oslo 2025 </a>
