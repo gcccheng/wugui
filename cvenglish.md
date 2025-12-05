@@ -4,7 +4,7 @@ title: Gang Cheng's CV
 ---
 # Gang Cheng 
 
-Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
+Red Hat Certified Architect, Red Hat Certified Professional of the Year, Infrastructure/DevOps/DevEx/Platform Engineer
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat Bio</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
