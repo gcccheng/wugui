@@ -14,20 +14,19 @@ Red Hat 认证架构师（RHCA）｜Red Hat 2024唯一年度人物(RHCP)｜基�
 
 ## 概要（Summary）
 
-程刚是一位深耕基础架构、云原生与 DevOps 领域的资深工程师，开源拥趸，拥有十年以上欧洲一线企业与科研机构的实战经验，曾在媒体科技、金融技术服务、大型政府 IT 与高性能科研计算环境中承担核心平台建设工作。他在 Kubernetes 平台、DevOps 体系化建设、基础设施自动化、可观测性和云平台架构方面具有扎实的工程能力与丰富的落地经验。
+程刚是一位深耕基础架构、云原生与 DevOps 领域的资深工程师，开源拥趸，拥有十年以上欧洲一线企业与科研机构的实战经验，曾在媒体科技、金融技术服务、大型政府 IT 以及高性能科研计算环境中承担核心平台建设工作。他在 Kubernetes 平台、DevOps 体系化建设、基础设施自动化、可观测性和云平台架构方面具有扎实的工程能力与丰富的落地经验，并在职业早期参与建设和运维高性能计算（HPC）集群，处理分布式计算节点、NVIDIA GPU 服务器、Slurm 调度与并行计算环境，这为他后续在大规模分布式系统中的架构能力奠定了坚实基础。
 
 2024 年，程刚荣获 **Red Hat Certified Professional of the Year** ——  
 这是 Red Hat 面向全球用户授予的最高级别技术奖项，  
 每年在全球仅选出一位获奖者。  
 
-他不仅是 **全球年度唯一获奖者**，同时，他也是该奖项设立以来首位来自中国的获奖工程师。 
+他不仅是 **全球年度唯一获奖者**，同时，他也是该奖项设立以来首位来自中国的获奖工程师。  
 
 这一荣誉代表了业界对他在 Red Hat、容器平台、自动化、OpenShift、Ansible 以及企业级基础架构设计与实施方面的高度认可，也表明他的技术实践能力与思考方式达到了国际顶级水准。
 
 除深厚的技术背景外，程刚在多个岗位中承担平台核心负责人角色，具备带领小型团队推进复杂基础设施项目落地的经验，能够独立完成架构设计、标准制定、项目拆解、跨团队协作以及工程落地。他重视工程质量、可维护性与可扩展性，擅长以工程方式解决复杂问题，并推动系统性、长期价值的建设。
 
 作为极具自驱力的工程师，他持续投入学习并主动吸收新技术，具备从 0 到 1 搭建平台体系的能力，同时也能在现有体系中发现问题、推动优化，帮助组织构建更稳定、更安全、更高效的基础设施能力。
-
 
 ## 工作经历（Employment）
 
@@ -207,7 +206,8 @@ Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥
 - Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform  
 - Red Hat Certified Specialist in Deployment and Systems Management  
 - Red Hat Certified Engineer  
-- Red Hat Certified System Administrator  
+- Red Hat Certified System Administrator
+- NVIDIA AI Infrastructure and Operations Fundamentals
 - Microsoft Certified: Azure Fundamentals  
 - Red Hat Certified Specialist in Containers and Kubernetes  
 
