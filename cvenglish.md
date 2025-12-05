@@ -29,7 +29,7 @@ Appear TV is a leading European provider of video compression, media processing 
 
 **Responsibilities & Achievements**
 
-#### ★ OpenWebUI Internal AI Platform (AI Capability Enablement)
+##### ★ OpenWebUI Internal AI Platform (AI Capability Enablement)
 Designed and delivered Appear’s internal AI platform based on OpenWebUI to support engineering use-cases such as log analysis, documentation generation, error explanation and code assistance.
 
 - Served as project technical owner; led the full architecture and implementation.
@@ -58,7 +58,7 @@ Designed and delivered Appear’s internal AI platform based on OpenWebUI to sup
 
 
 `2022-2025`
-***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
+### Senior Infrastructure Engineer at Sopra Steria
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
@@ -186,7 +186,7 @@ Value Created: Enhanced system reliability and performance by proactively identi
 
 
 `2012-2022`
-***<font size= "3">System Engineer at University of Oslo</font>***
+### System Engineer at University of Oslo
 
 At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers. Key activities included:
 
