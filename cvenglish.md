@@ -62,6 +62,7 @@ Designed and delivered Appear’s internal AI platform based on OpenWebUI to sup
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
 `project`
+
 **Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
 
 Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
@@ -72,6 +73,7 @@ Value Created: Delivered a secure, scalable, and automated CI/CD runner platform
 
 
 `project`
+
 **Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)**
 
 Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
@@ -81,6 +83,7 @@ Contribution: Designed and deployed a MinIO-based S3-compatible backend on an in
 Value Created: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 `project`
+
 **Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)**
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
@@ -90,6 +93,7 @@ Contribution: Designed and implemented GitOps workflows using Argo CD, connectin
 Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
 `project`
+
 **Building Infrastructure Monitoring System(ongoing)(sole role)**
 
 Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
@@ -99,6 +103,7 @@ Contribution: Building Prometheus and Grafana on an existing Kubernetes platform
 Value Created: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
  
 `project`
+
 **Troubleshooting and Improving CI/CD Pipelines**
 
 Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
@@ -108,6 +113,7 @@ Contribution: Troubleshot pipeline errors, optimized performance, improved relia
 Value Created: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 `project`
+
 **Infrastructure Standardization and Automation(sole role)**
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
@@ -118,6 +124,7 @@ Value Created: Improve infrastructure consistency, reduce manual errors, enhance
 
 
 `project`
+
 **Automating Upgrading RHEL7 to RHEL8**
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
@@ -128,6 +135,7 @@ Value Created: Ensure systems are aligned with security compliance standards.
 
 
 `project`
+
 **Ansible Automation Platform on Openshift**
 
 Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
@@ -138,6 +146,7 @@ Value Created: Reduced manual tasks and errors while managing playbooks, invento
 
 
 `project`
+
 **Deploying Red Hat 9 to Production Infrastructure**
 
 Description: Need to test RHEL9 and make it ready for production use.
@@ -148,6 +157,7 @@ Value Created: Enable seamless deployment, ensure system compatibility, and make
 
 
 `project`
+
 **Automating Patching of Red Hat VM**
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
@@ -157,6 +167,7 @@ Contribution: Designed and implemented an Ansible-based workflow with Red Hat Sa
 Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
 `project`
+
 **Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform**
 
 Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
@@ -167,6 +178,7 @@ Value Created: Streamlined installation, configuration, and management of VM.
 
 
 `project`
+
 **Deploying critical application to infrastructure(sole role)**
 
 Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
@@ -175,6 +187,7 @@ Contribution: Solo responsibility for installing, configuring, and troubleshooti
 Value Created: Ensure that the system is aligned with organization policies.
 
 `project`
+
 **Splunk Implementation**
 
 Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
