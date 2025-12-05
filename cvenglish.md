@@ -43,14 +43,14 @@ Designed and delivered Appear’s internal AI platform based on OpenWebUI to sup
 
 ---
 
-#### ★ Bare-Metal Kubernetes Platform (Cloud-Native Infrastructure Foundation)
+#### ★ DevOps Platform (Cloud-Native Infrastructure Foundation)
 - Designed and built a highly available bare-metal Kubernetes platform using Rancher and Flatcar.
 - Unified development environments across Rust, C++, Python, Yocto and TypeScript teams.
 - Implemented GitOps workflows with GitLab CI, Argo CD and Kustomize, enabling consistent and auditable deployments.
 - Standardized infrastructure provisioning with Terraform and automated CI/CD pipelines.
 - Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Replicator and GitLab Runners.
 - Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
-- Collaborated with the CISO on RBAC design, supply-chain security, image scanning and network policy hardening.
+- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward ISO 27001 / SOC 2 certification readiness.
 
 
 `2022-2025`
