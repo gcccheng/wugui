@@ -5,7 +5,7 @@ title: 程刚中文简历
 
 # 程 刚（Gang Cheng）
 
-Red Hat 认证架构师（RHCA）｜Red Hat 2024年度认证人物(RHCP)｜基础架构工程师 ｜ DevOps 工程师 ｜ 平台工程师 ｜ Developer Experience 工程师  
+Red Hat 认证架构师（RHCA）｜Red Hat 2024年度认证专业人士(RHCP)｜基础架构工程师 ｜ DevOps 工程师 ｜ 平台工程师 ｜ Developer Experience 工程师  
 
 <div id="webaddress">
 <a href="https://www.redhat.com/zh-cn/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat 官方页面对程刚的简介</a> |
