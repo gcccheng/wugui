@@ -195,7 +195,7 @@ Contribution: Deployed and configured Splunk Enterprise for centralized log aggr
 Value Created: Enhanced system reliability and performance by proactively identifying incidents.
 
 
-`2012-2022`
+`2011-2022`
 ### System Engineer at University of Oslo
 
 At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers. Key activities included:
