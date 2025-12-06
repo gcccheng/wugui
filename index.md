@@ -279,9 +279,7 @@ Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥
 ## 其他接触技能（Exposure Skills）
 
 - AWS  
-- Microsoft Azure  
-- OpenStack  
-- Vagrant  
+- AliCloud
 
 ## 教育背景（Education）
 
