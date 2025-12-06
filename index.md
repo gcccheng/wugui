@@ -267,7 +267,7 @@ Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥
 
 ## 技术栈（Experienced Tech Stacks and Skills）
 
-- Kubernetes、Docker、Podman, GitHub Actions、GitHub Actions Runner Controller (ARC) , Red Hat Linux、Red Hat Satellite、Red Hat OpenShift、Red Hat Ansible, Atlassian Bitbucket、Confluence、Jira, Grafana、Prometheus、Splunk, Dell PowerEdge、Cisco, Windows Server、SCCM, Samba、NFS、FirewallD、Active Directory, Bash, Perl, Python, Go 
+- Kubernetes、Docker、Podman, GitHub Actions、GitHub Actions Runner Controller (ARC) , Red Hat Linux、Red Hat Satellite、Red Hat OpenShift、Red Hat Ansible, Atlassian Bitbucket、Confluence、Jira, Grafana、Prometheus、Splunk, Dell PowerEdge、Cisco, Windows Server、SCCM, Samba、NFS、FirewallD、Active Directory, Terraform, Bash, Perl, Python, Go 
 
 ## 其他接触技能（Exposure Tech Stacks and Skills）
 
