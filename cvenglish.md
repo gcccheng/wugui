@@ -21,24 +21,22 @@ With over a decade of hands-on experience across diverse IT infrastructure envir
 ## Employment
 `2025–Present`
 ### Senior Platform Engineer — Appear TV, Oslo, Norway  
-Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations. Reliability, low latency and system stability are core to its products.
+Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including BCUniversal、Warner Bros. Discovery、NHL、Formula 1、Riot Games. Reliability, low latency and system stability are core to its products.
 
 **Responsibilities & Achievements**
 
-##### ★ OpenWebUI Internal AI Platform (AI Capability Enablement)
+##### ★ Internal AI Platform (AI Capability Enablement)
 Designed and delivered Appear’s internal AI platform based on OpenWebUI to support engineering use-cases such as log analysis, documentation generation, error explanation and code assistance.
 
 - Served as project technical owner; led the full architecture and implementation.
 - Evaluated OpenWebUI, Ollama, LM Studio and other LLM tooling; drove final platform selection.
 - Designed containerized deployment, model management workflow, plugin system and multi-team access control.
-- Integrated tools for code snippet analysis, config validation, CI error explanation and documentation summarization.
 - Led a 2–3 person initiative for rollout, optimization and knowledge base integration.
 - Promoted AI-assisted engineering practices across R&D teams.
 
 **Impact**
 - Established the company’s first unified AI portal, greatly lowering adoption barriers.
 - Engineering teams’ AI usage increased substantially, shifting from ad-hoc to systematic use.
-- Reduced repetitive tasks such as log interpretation and CI failure diagnostics.
 - Formed the foundation for future RAG, code indexing and AI-driven DevEx automation.
 
 ---
@@ -48,7 +46,7 @@ Designed and delivered Appear’s internal AI platform based on OpenWebUI to sup
 - Unified development environments across Rust, C++, Python, Yocto and TypeScript teams.
 - Implemented GitOps workflows with GitLab CI, Argo CD and Kustomize, enabling consistent and auditable deployments.
 - Standardized infrastructure provisioning with Terraform and automated CI/CD pipelines.
-- Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Replicator and GitLab Runners.
+- Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto and GitLab Runners.
 - Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
 - Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward ISO 27001 / SOC 2 certification readiness.
 - Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security (SBOM/signing), and audit logging.
@@ -84,7 +82,7 @@ Value Created: Established a reliable, centralized, and versioned Terraform stat
 
 `project`
 
-**Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)**
+**Implementing GitOps Deployment Workflow with Argo CD (sole role)**
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
@@ -94,7 +92,7 @@ Value Created: Established a flexible and automated deployment pipeline aligned 
 
 `project`
 
-**Building Infrastructure Monitoring System(ongoing)(sole role)**
+**Building Infrastructure Monitoring System(sole role)**
 
 Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
 
@@ -125,7 +123,7 @@ Value Created: Improve infrastructure consistency, reduce manual errors, enhance
 
 `project`
 
-**Automating Upgrading RHEL7 to RHEL8**
+**Automating Upgrading RHEL7 to RHEL8 (sole role)**
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 
@@ -147,7 +145,7 @@ Value Created: Reduced manual tasks and errors while managing playbooks, invento
 
 `project`
 
-**Deploying Red Hat 9 to Production Infrastructure**
+**Deploying Red Hat 9 to Production Infrastructure (sole role)**
 
 Description: Need to test RHEL9 and make it ready for production use.
 
@@ -158,7 +156,7 @@ Value Created: Enable seamless deployment, ensure system compatibility, and make
 
 `project`
 
-**Automating Patching of Red Hat VM**
+**Automating Patching of Red Hat VM (sole role)**
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
