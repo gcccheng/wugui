@@ -344,9 +344,14 @@ University of Oslo: Master in Network and System Administration
 Blog writing, Skiing, and hiking
   
 ## Languages 
+
+Chinese: Native 
+
 English: Full Professional Working Proficiency
   
 Norwegian: Professional Working Proficiency
+
+
 
 
   
