@@ -259,8 +259,6 @@ Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥
 - AWS RAG and Fine-tuned AI  
 - Using the High Performance Computing cluster for Educloud Research users  
 - Cilium Hands-On Workshop & Deep Dive Oslo  
-- Version Control with Git  
-- Cryptography and SSH remote logins  
 - Python for Scientific Computing  
 - Virtualized research architecture using OpenStack  
 - AI at UiO  
