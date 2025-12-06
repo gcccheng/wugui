@@ -294,12 +294,6 @@ Manage vm, virtul network, firewall on Azure
 <a href="http://modules.sourceforge.net/">Using Environment Modules to initialize shell and modify shell environment</a>
   
 Deploy AWS EC2 instance with terraform
-
-Running containers with podman
-  
-<a href="https://www.ub.uio.no/english/courses-events/courses/other/Carpentry/211103_github"> Version Control with Git </a>
-
-Cryptography and SSH remote logins 
   
 <a href="https://www.ub.uio.no/english/courses-events/courses/other/coderefinery/Python%20for%20Scientific%20Computing%20%28internediate%29"> Python for Scientific Computing</a>
 
