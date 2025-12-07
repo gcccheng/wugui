@@ -50,17 +50,17 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto and GitLab Runners.
 - Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
 - Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward IPO readiness and ISO 27001 certification readiness.
-- Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security (SBOM/signing), and audit logging.
+- Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security, and audit logging.
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
   
 #### ★ Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
 
-To ensure infrastructure resilience and verify that the platform could be fully recovered at any time, we performed quarterly DR drills that involved destroying all non-production infrastructure and rebuilding it from scratch using IaC workflows.
+To ensure infrastructure resilience and verify that the platform could be fully recovered at any time, we performed quarterly DR drills that involved destroying all infrastructure and rebuilding it from scratch using IaC workflows.
 
 ##### Responsibilities
 
-- Designed and executed quarterly DR exercises that removed all existing infrastructure components, including Kubernetes clusters, VMs, networks, storage, and platform services.
+- Designed and executed quarterly DR exercises that removed all existing infrastructure components, including Kubernetes clusters, VMs, and platform services.
 - Rebuilt the entire environment automatically using Terraform, Ansible, and cluster bootstrapping scripts, validating that the IaC definitions were complete, up-to-date, and production-ready.
 - Ensured deterministic, repeatable, and fast environment recovery, reducing dependency on manual operations and increasing overall infrastructure reliability.
 - Documented recovery procedures, measured rebuild time, and provided readiness reports for compliance and operational governance.
@@ -82,8 +82,7 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 ##### Responsibilities (in progress)
   
 - Designing and operating the **Azure infrastructure foundation** for the Hub using **Azure Container Apps, VMs, Azure Container Registry, Blob Storage, Front Door and DNS**.  
-- Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.  
-- Establishing CI/CD pipelines and IaC patterns to ensure repeatable, auditable deployments and consistent environments.  
+- Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.    
 - Introducing observability with **Azure Monitor / Log Analytics / Application Insights** for availability, latency, download success rate and support-case telemetry.  
 - Collaborating with product, support and manufacturing teams to translate requirements into robust, platform-level capabilities.
   
@@ -111,7 +110,7 @@ Led a proof-of-concept to evaluate enterprise API gateway and management capabil
 
 ##### Responsibilities
 
-- Deployed Red Hat 3scale (API Manager + APIcast Gateway) on OpenShift using the official Operator and APIManager CRD.
+- Deployed Red Hat 3scale (API Manager + APIcast Gateway) on OpenShift using the official Operator.
 - Configured products, backends, routing rules, API keys, and rate-limit plans to model real internal APIs and governance workflows.
 - Demonstrated developer onboarding through the Developer Portal and documented a reference architecture applicable to Kong / Apigee / AWS API Gateway.
   
@@ -119,7 +118,7 @@ Led a proof-of-concept to evaluate enterprise API gateway and management capabil
 
 - Delivered a working MVP showing how API traffic, authentication, and governance could be centralised. Provided a clear foundation for future API-first adoption, even though the PoC did not proceed to production.
   
-#### ★ Implementing Ceph Storage Integration for OpenShift (client project)
+#### ★ Implementing Ceph Storage Integration for OpenShift
 
 The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
 
@@ -135,29 +134,46 @@ The client required a scalable and highly available storage backend to support s
 - Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably.
 Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
 
-#### ★ Automating Patching of Red Hat VM (sole role)
+#### ★ Automated Patch Management for Large-Scale Red Hat VM Estate (sole role)
 
-The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
-
-##### Responsibilities
-
-- Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
-  
-##### Value Created 
-
-- Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
-
-#### ★ Ansible Automation Platform on Openshift
-
-With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
+The organisation operated hundreds of Red Hat VMs across multiple environments (production, staging, development), each with different maintenance windows, availability constraints and security requirements. Patch content varied significantly depending on system role, as Red Hat Satellite hosted not only RHEL repositories but also Microsoft and other third-party package sources. The previous manual approach was slow, inconsistent and error-prone, creating operational risk and security exposure.
 
 ##### Responsibilities
 
-- Collaborated with teams on deploying the Ansible Automation Platform on Openshift. 
+- Designed and delivered **automated patch management framework** using Ansible integrated with Red Hat Satellite, capable of handling heterogeneous VM types and environment-specific constraints.
+- Developed logic to reconcile patch sources from **multiple Satellite repositories** (Red Hat, Microsoft, third-party) and apply them selectively based on system purpose and compatibility.
+- Collaborated with application owners to define **environment-specific patching windows**,and created **tailored patching policies**, ensuring production systems met uptime requirements.
+- Introduced reporting and auditability for patch status, compliance, error tracking and exception handling.
 
 ##### Value Created
 
-- Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
+- Transformed patching from a manual, high-risk activity into a **consistent, automated and policy-driven process**.
+- Reduced patching errors and improved overall system uptime through controlled rollouts and validation.
+- Ensured security compliance across a complex VM estate while minimising disruption to mission-critical applications.
+- Provided a scalable foundation for ongoing OS lifecycle management and aligned patching practices across teams.
+
+#### ★ Ansible Automation Platform (AAP) on OpenShift — Enterprise Automation Platform Implementation
+
+As the organisation's infrastructure and application environments grew, the number of playbooks, inventories, credentials and automation workflows expanded significantly. Automation execution was inconsistent across teams, secrets were managed manually, and there was no unified governance model. AAP on OpenShift was selected as the foundation for a centrally governed automation platform that could support multi-team, multi-tenant and audit-ready operations at scale.
+
+##### Responsibilities
+
+- Led the design and deployment of **Ansible Automation Platform on Red Hat OpenShift**, including controller, execution environments, private automation hub and cluster integration.
+- Built a **multi-tenant automation architecture** to support different teams (Ops, Security, AppDev) with segregated inventories, RBAC policies, credential stores and execution environments.
+- Containerised automation workflows using **Execution Environments** to ensure reproducibility, dependency isolation and security baselines.
+- Defined standardised automation patterns and **governance workflows**, including peer review, validation, testing pipelines and controlled promotion between environments.
+- Established **audit logging, compliance controls and lifecycle management** for playbooks, inventories, job runs and credentials.
+- Collaborated across infrastructure, security, and application engineering teams to migrate existing ad-hoc automation into a unified, secure and scalable platform.
+- Implemented monitoring and usage analytics for job runs, execution bottlenecks and capacity management.
+
+##### Value Created
+
+- Transformed automation from scripts and manual processes into a **centralised, secure and policy-driven automation platform**.  
+- Improved operational consistency and reduced human error by enforcing standardised automation workflows and RBAC governance.  
+- Significantly accelerated automation delivery by enabling shared execution environments and reproducible job execution.  
+- Enhanced security posture through tracked credential usage, containerised execution, and full auditability of automation activities.  
+- Enabled long-term scalability by providing a reusable automation foundation that multiple teams can safely extend.
+
   
 #### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 
@@ -183,18 +199,6 @@ With increasing demands from developers for faster and more flexible deployments
 
 - Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
-#### Infrastructure Standardization and Automation(sole role)
-
-The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
-
-##### Responsibilities 
-
-- Standardized operating systems, simplified and automated VM provisioning and management process.
-
-##### Value Created
-
-- Improved infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
-
 #### Troubleshooting and Improving CI/CD Pipelines
 
 The development team encountered various errors and instability when running pipelines on self-hosted runners.
@@ -206,19 +210,23 @@ The development team encountered various errors and instability when running pip
 ##### Value Created
 
 - Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
+- 
+#### ★ Automating Lifecycle Management of Red Hat Linux (RHEL7→8 Upgrade + RHEL9 Readiness) （sole role）
 
-#### Automating Provisioning of Red Hat Linux (sole role)
+The organisation needed to both upgrade a large RHEL7  approaching end-of-support and prepare RHEL9 for future production rollout. These required two parallel streams: automating the migration of existing systems and validating the next-generation OS for compatibility, stability and security.
 
-RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority. RHEL9 needed to be tested and configured before production use.
+**Responsibilities**
+- Designed and executed a phased **RHEL7→RHEL8 upgrade strategy** in collaboration with application owners, including dependency mapping, compatibility checks, maintenance windows and rollback plans.
+- Automated the upgrade process with Ansible, enabling consistent, repeatable and low-risk upgrades across heterogeneous server groups.
+- In parallel, performed **RHEL9 evaluation and readiness engineering**, including functional testing against existing applications, kernel and package behaviour assessment, and integration with organisational existing tooling.
+- Built and validated a **hardened VMware RHEL9 image template**, defining baseline configuration, security policies and operational dependencies required for large-scale future deployment.
+- Contributed documentation, migration guidance and best practices for long-term OS lifecycle management.
 
-##### Responsibilities
+**Value Created**
+- Delivered a structured, automated and compliant upgrade process for the RHEL7→8 transition.
+- Ensured RHEL9 was fully evaluated, hardened and production-ready before mass adoption.
+- Reduced operational risk, eliminated configuration drift and significantly accelerated provisioning for future environments.
 
-- Designed upgrading plan with application owners and automated upgrading job with Ansible.
-- Created a customized Red Hat image template for VMware and tested aginst production environment.
-
-##### Value Created
-
-- Ensured systems are aligned with security compliance standards.
 
 `2011-2022`
 
