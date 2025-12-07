@@ -141,21 +141,20 @@ The current infrastructure management was manual, inconsistent, and lacked stand
 ##### Responsibilities 
 - Standardized operating systems, simplified and automated VM provisioning and management process.
 ##### Value Created
-- Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
+- Improved infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 #### Troubleshooting and Improving CI/CD Pipelines
 The development team encountered various errors and instability when running pipelines on self-hosted runners.
 ##### Responsibilities 
-- Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
+- Troubleshooted pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
 ##### Value Created
 - Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 #### Automating Provisioning of Red Hat Linux (sole role)
-- RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
-- RHEL9 needs to be tested and configured before production use.
+RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority. RHEL9 needed to be tested and configured before production use.
 ##### Responsibilities
 - Designed upgrading plan with application owners and automated upgrading job with Ansible.
 - Created a customized Red Hat image template for VMware and tested aginst production environment.
 ##### Value Created
-- Ensure systems are aligned with security compliance standards.
+- Ensured systems are aligned with security compliance standards.
 
 `2011-2022`
 
