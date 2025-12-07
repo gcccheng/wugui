@@ -108,7 +108,7 @@ The client required a scalable and highly available storage backend to support s
 - Performed validation of read/write performance, redundancy, and failure recovery scenarios.
 - Documented operational procedures, including node replacement, OSD recovery, monitoring, and capacity planning.
 ##### Value Created
-Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably.
+- Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably.
 Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
 #### ★ Automating Patching of Red Hat VM (sole role)
 The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
