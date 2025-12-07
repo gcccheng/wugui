@@ -18,10 +18,14 @@ Beyond his strong Red Hat background, Gang has worked across **DevOps, cloud-nat
  
 With over a decade of hands-on experience across diverse IT infrastructure environments, he has successfully delivered stable, high-performance platforms, created value for stakeholders, and collaborated closely with developers, researchers, and cross-functional teams. His strong communication skills, structured thinking, and collaborative mindset continue to enable him to drive meaningful contributions in complex engineering organizations.
 
+---
+
 ## Employment
 `2025–Present`
 ### Senior Platform Engineer — Appear TV, Oslo, Norway  
 Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including BCUniversal、Discovery、NHL、Formula 1、Riot Games. 
+
+---
 
 #### ★ Internal AI & Developer Experience Platform (LLM Enablement)
 
@@ -41,7 +45,9 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Established the company’s first **unified internal AI entry point**, significantly lowering the barrier for engineers to use LLMs in daily work.
 - Shifted AI usage from ad-hoc, individual experimentation to **systematic, policy-aware consumption**.
 - Created a practical foundation for future **AI Gateway-style capabilities** such as multi-tenant routing, observability and governance.
-  
+
+ ---
+ 
 #### ★ DevOps Platform (Cloud-Native Infrastructure Foundation)
 
 - Designed and built a highly available bare-metal Kubernetes platform using Rancher and Flatcar.
@@ -53,6 +59,8 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security, and audit logging.
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
+
+---
   
 #### ★ Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
 
@@ -69,7 +77,9 @@ To ensure infrastructure resilience and verify that the platform could be fully 
 
 - Established a provable, auditable DR capability demonstrating that the entire platform could be recreated from zero using declarative IaC.
 - Improved platform resilience, reduced configuration drift, strengthened compliance posture, and ensured the organisation could rapidly recover in case of disaster or major incident.
-  
+
+---
+ 
 #### ★ Appear Hub Platform (Azure-based Global Customer & Partner Portal — in progress)
 
 Appear Hub is a next-generation portal designed to replace legacy solutions and provide a unified, secure interface for Appear’s global customers and manufacturing partners. The platform will support:
@@ -85,12 +95,16 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 - Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.    
 - Introducing observability with **Azure Monitor / Log Analytics / Application Insights** for availability, latency, download success rate and support-case telemetry.  
 - Collaborating with product, support and manufacturing teams to translate requirements into robust, platform-level capabilities.
-  
+
+---
+
 `2022-2025`
 
 ### Senior Infrastructure Engineer at Sopra Steria
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
+
+---
 
 #### ★ Building High Availabili Kubernetes and Github Actions Runner Controller(ARC)(sole role)
 
@@ -103,7 +117,9 @@ The existing use of GitHub self-hosted runners on virtual machines (VMs) led to 
 ##### Value Created
 
 - Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
-  
+
+---
+
 #### ★ API Gateway & API Management MVP on OpenShift (Customer PoC)
 
 Led a proof-of-concept to evaluate enterprise API gateway and management capabilities for a client needing consistent authentication, routing, and rate control across microservices.
@@ -117,7 +133,9 @@ Led a proof-of-concept to evaluate enterprise API gateway and management capabil
 ##### Value Created
 
 - Delivered a working MVP showing how API traffic, authentication, and governance could be centralised. Provided a clear foundation for future API-first adoption, even though the PoC did not proceed to production.
-  
+
+---
+
 #### ★ Implementing Ceph Storage Integration for OpenShift
 
 The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
@@ -133,6 +151,8 @@ The client required a scalable and highly available storage backend to support s
 
 - Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably.
 Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
+
+---
 
 #### ★ Automated Patch Management for Large-Scale Red Hat VM Estate (sole role)
 
@@ -151,6 +171,8 @@ The organisation operated hundreds of Red Hat VMs across multiple environments (
 - Reduced patching errors and improved overall system uptime through controlled rollouts and validation.
 - Ensured security compliance across a complex VM estate while minimising disruption to mission-critical applications.
 - Provided a scalable foundation for ongoing OS lifecycle management and aligned patching practices across teams.
+
+---
 
 #### ★ Ansible Automation Platform (AAP) on OpenShift — Enterprise Automation Platform Implementation
 
@@ -174,7 +196,8 @@ As the organisation's infrastructure and application environments grew, the numb
 - Enhanced security posture through tracked credential usage, containerised execution, and full auditability of automation activities.  
 - Enabled long-term scalability by providing a reusable automation foundation that multiple teams can safely extend.
 
-  
+---
+
 #### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 
 Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
@@ -186,6 +209,8 @@ Terraform state files were previously stored on local disks, causing issues like
 ##### Value Created
 
 - Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
+
+---
 
 #### Implementing GitOps Deployment Workflow with Argo CD (sole role)**
 
@@ -199,6 +224,8 @@ With increasing demands from developers for faster and more flexible deployments
 
 - Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
+---
+
 #### Troubleshooting and Improving CI/CD Pipelines
 
 The development team encountered various errors and instability when running pipelines on self-hosted runners.
@@ -210,7 +237,9 @@ The development team encountered various errors and instability when running pip
 ##### Value Created
 
 - Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
-- 
+
+---
+
 #### ★ Automating Lifecycle Management of Red Hat Linux (RHEL7→8 Upgrade + RHEL9 Readiness) （sole role）
 
 The organisation needed to both upgrade a large RHEL7  approaching end-of-support and prepare RHEL9 for future production rollout. These required two parallel streams: automating the migration of existing systems and validating the next-generation OS for compatibility, stability and security.
@@ -226,6 +255,8 @@ The organisation needed to both upgrade a large RHEL7  approaching end-of-suppor
 - Delivered a structured, automated and compliant upgrade process for the RHEL7→8 transition.
 - Ensured RHEL9 was fully evaluated, hardened and production-ready before mass adoption.
 - Reduced operational risk, eliminated configuration drift and significantly accelerated provisioning for future environments.
+
+---
 
 
 `2011-2022`
@@ -245,6 +276,8 @@ At the University of Oslo, Gang played a key role in managing and operating a lo
   
 This role formed the foundation for Gang’s later specialization in large-scale distributed systems, platform engineering, GPU-accelerated infrastructure, and high-reliability computing environments.
 
+---
+
 `2008`
 
 ### Archive Assistant & Logger — Olympic Broadcasting Services (OBS), Beijing Olympics  
@@ -258,6 +291,8 @@ OBS is the International Olympic Committee’s broadcast organization responsibl
 - Assisted in managing tape-based archival media (HDCAM/XD) preserved by the IOC.
 - Gained foundational experience in media signal processing long before transitioning into professional media infrastructure engineering.
 
+---
+
 ## Certificate
 - Red Hat Certified Professional of the Year 2024  
 - Red Hat Certified Architect  
@@ -270,12 +305,16 @@ OBS is the International Olympic Committee’s broadcast organization responsibl
 - NVIDIA AI Infrastructure and Operations Fundamentals
 - Microsoft Certified: Azure Fundamentals  
 - Red Hat Certified Specialist in Containers and Kubernetes
-  
+
+---
+
 ## Events & Conference
 
 <a href="https://cloud-native-day-oslo-2025.sessionize.com/schedule"> Cloud Native Day Oslo 2025 </a>
 
 <a href="https://www.redhat.com/en/summit?sc_cid=7013a000003SgNoAAK&gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIrWsK8FpcovhjhNkmFLjS6y1CHJ86KXi1ZhIma1cS59K3BK2zOzx9QaAp_EEALw_wcB&gclsrc=aw.ds"> Red Hat Summit - Red Hat Ansible Fest </a>
+
+---
 
 ## Articles
 
@@ -284,6 +323,8 @@ OBS is the International Olympic Committee’s broadcast organization responsibl
 <a href="https://medium.com/@gcccheng/challenges-tips-and-rewards-working-as-a-consultant-in-norway-4b6ddce2ff3b"> Challenges, tips, and rewards: working as a consultant in Norway </a>
 
 <a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — From DevOps to DevEx </a>
+
+---
 
 ## Courses
 
@@ -313,6 +354,8 @@ OBS is the International Olympic Committee’s broadcast organization responsibl
 
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
+---
+
 ## Workshops
 <a href="https://events.redhat.com/profile/form/index.cfm?PKformID=0x11991670001">Azure Red Hat OpenShift AI</a>
 
@@ -333,6 +376,8 @@ Deploy AWS EC2 instance with terraform
 <a href="https://arnsteio.github.io/UH-IaaS-mini-workshop/"> Virtualized research architecture using openstack</a>
   
 <a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
+
+---
 
 ## Other Projects
 
@@ -356,20 +401,29 @@ Set up local directory service with OpenLDAP
   
 Intrusion detection and monitoring with Snort and Munin
 
+---
+
 ## Experienced Tech Stacks and Skills
 Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), GitLab, Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows SCCM, Samba, NFS, FirewallD, Active Directory, Terrafform, Bash, Perl, Python, Go 
 
+---
+
 ## Exposure Tech Stacks and Skills
 AWS, AliCloud
+
+---
 
 ## Education
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 
-  
+---
+ 
 ## Hobbies 
 Blog writing, Skiing, and hiking
-  
+
+---
+
 ## Languages 
 
 Chinese: Native 
@@ -379,11 +433,7 @@ English: Full Professional Working Proficiency
 Norwegian: Professional Working Proficiency
 
 
-
-
-  
-
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: December 2025 -->
 
