@@ -21,7 +21,7 @@ With over a decade of hands-on experience across diverse IT infrastructure envir
 ## Employment
 `2025–Present`
 ### Senior Platform Engineer — Appear TV, Oslo, Norway  
-Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including BCUniversal、Warner Bros. Discovery、NHL、Formula 1、Riot Games. Reliability, low latency and system stability are core to its products.
+Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including BCUniversal、Warner Bros. Discovery、NHL、Formula 1、Riot Games. 
 
 #### ★ Internal AI & Developer Experience Platform (LLM Enablement)
 
@@ -40,11 +40,8 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Shifted AI usage from ad-hoc, individual experimentation to **systematic, policy-aware consumption**.
 - Created a practical foundation for future **AI Gateway-style capabilities** such as multi-tenant routing, observability and governance.
 
----
-
 #### ★ DevOps Platform (Cloud-Native Infrastructure Foundation)
 - Designed and built a highly available bare-metal Kubernetes platform using Rancher and Flatcar.
-- Unified development environments across Rust, C++, Python, Yocto and TypeScript teams.
 - Implemented GitOps workflows with GitLab CI, Argo CD and Kustomize, enabling consistent and auditable deployments.
 - Standardized infrastructure provisioning with Terraform and automated CI/CD pipelines.
 - Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto and GitLab Runners.
@@ -54,6 +51,22 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
 
+#### ★ Appear Hub Platform (Azure-based Global Customer & Partner Portal — in progress)
+
+Appear Hub is a next-generation portal designed to replace legacy solutions and provide a unified, secure interface for Appear’s global customers and manufacturing partners. The platform will support:
+
+- Firmware and software release distribution
+- Licence and entitlement management for deployed appliances
+- Access to online documentation, release notes and configuration guides
+- Support case submission and diagnostic/log uploads
+- Contract manufacturer (CM) workflows, including access to build artifacts and production resources
+
+**Responsibilities (in progress)**  
+- Designing and operating the **Azure infrastructure foundation** for the Hub using **Azure Container Apps, VMs, Azure Container Registry, Blob Storage, Front Door and DNS**.  
+- Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.  
+- Establishing CI/CD pipelines and IaC patterns to ensure repeatable, auditable deployments and consistent environments.  
+- Introducing observability with **Azure Monitor / Log Analytics / Application Insights** for availability, latency, download success rate and support-case telemetry.  
+- Collaborating with product, support and manufacturing teams to translate requirements into robust, platform-level capabilities.
 
 `2022-2025`
 ### Senior Infrastructure Engineer at Sopra Steria
