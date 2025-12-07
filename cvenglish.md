@@ -48,12 +48,31 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Standardized infrastructure provisioning with Terraform and automated CI/CD pipelines.
 - Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto and GitLab Runners.
 - Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
-- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward IPO readiness and ISO 27001 / SOC 2 certification readiness.
-
-
+- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward IPO readiness and ISO 27001 certification readiness.
 - Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security (SBOM/signing), and audit logging.
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
+
+  
+#### Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
+
+To ensure infrastructure resilience and verify that the platform could be fully recovered at any time, we performed quarterly DR drills that involved destroying all non-production infrastructure and rebuilding it from scratch using IaC workflows.
+
+**Responsibilities**
+
+Designed and executed quarterly DR exercises that removed all existing infrastructure components, including Kubernetes clusters, VMs, networks, storage, and platform services.
+
+Rebuilt the entire environment automatically using Terraform, Ansible, and cluster bootstrapping scripts, validating that the IaC definitions were complete, up-to-date, and production-ready.
+
+Ensured deterministic, repeatable, and fast environment recovery, reducing dependency on manual operations and increasing overall infrastructure reliability.
+
+Documented recovery procedures, measured rebuild time, and provided readiness reports for compliance and operational governance.
+
+**Value Created**
+
+Established a provable, auditable DR capability demonstrating that the entire platform could be recreated from zero using declarative IaC.
+
+Improved platform resilience, reduced configuration drift, strengthened compliance posture, and ensured the organisation could rapidly recover in case of disaster or major incident.
 
 #### ★ Appear Hub Platform (Azure-based Global Customer & Partner Portal — in progress)
 
