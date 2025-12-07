@@ -48,7 +48,9 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Standardized infrastructure provisioning with Terraform and automated CI/CD pipelines.
 - Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto and GitLab Runners.
 - Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
-- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward ISO 27001 / SOC 2 certification readiness.
+- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward IPO readiness and ISO 27001 / SOC 2 certification readiness.
+
+
 - Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security (SBOM/signing), and audit logging.
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
