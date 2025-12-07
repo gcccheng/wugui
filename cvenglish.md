@@ -23,7 +23,7 @@ With over a decade of hands-on experience across diverse IT infrastructure envir
 ## Employment
 `2025–Present`
 ### Senior Platform Engineer — Appear TV, Oslo, Norway  
-Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including BCUniversal、Discovery、NHL、Formula 1、Riot Games. 
+Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including NBCUniversal、Discovery、NHL、Formula 1、Riot Games. 
 
 ---
 
