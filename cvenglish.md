@@ -27,14 +27,16 @@ Appear TV is a leading European provider of video compression, media processing 
 
 Designed and delivered an **internal AI/LLM enablement platform** to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
 
+**Responsibilities**  
+
 - Acted as technical owner for the initiative, from architecture to implementation and rollout.
 - Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
 - Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
-- Prototyped **multi-model routing strategies** to map request types (e.g. translation, summarisation, code) to appropriate backends.
+- Explored model-selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
 - Implemented basic prompt governance and usage logging, laying groundwork for **responsible AI and auditability**.
 - Worked with several R&D teams to promote AI-assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
 
-**Impact**
+**Value Created**
 
 - Established the company’s first **unified internal AI entry point**, significantly lowering the barrier for engineers to use LLMs in daily work.
 - Shifted AI usage from ad-hoc, individual experimentation to **systematic, policy-aware consumption**.
@@ -54,7 +56,6 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 #### ★ Appear Hub Platform (Azure-based Global Customer & Partner Portal — in progress)
 
 Appear Hub is a next-generation portal designed to replace legacy solutions and provide a unified, secure interface for Appear’s global customers and manufacturing partners. The platform will support:
-
 - Firmware and software release distribution
 - Licence and entitlement management for deployed appliances
 - Access to online documentation, release notes and configuration guides
@@ -62,6 +63,7 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 - Contract manufacturer (CM) workflows, including access to build artifacts and production resources
 
 **Responsibilities (in progress)**  
+
 - Designing and operating the **Azure infrastructure foundation** for the Hub using **Azure Container Apps, VMs, Azure Container Registry, Blob Storage, Front Door and DNS**.  
 - Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.  
 - Establishing CI/CD pipelines and IaC patterns to ensure repeatable, auditable deployments and consistent environments.  
@@ -73,140 +75,102 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
-`project`
+### ★ Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)
 
-**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
+The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 
-Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
+**Responsibilities**  
 
-Contribution: Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
+Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
 
-Value Created: Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
+**Value Created**
 
+Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
 
-`project`
 
-**Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)**
+#### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 
-Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
+Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
 
-Contribution: Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
+**Responsibilities**  
+ Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
 
-Value Created: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
+**Value Created**
+Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
-`project`
+#### Implementing GitOps Deployment Workflow with Argo CD (sole role)**
 
-**Implementing GitOps Deployment Workflow with Argo CD (sole role)**
+With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
-Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
+**Responsibilities**  
 
-Contribution: Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
+Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
 
-Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
+**Value Created**
 
-`project`
+Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
-**Building Infrastructure Monitoring System(sole role)**
+#### Infrastructure Standardization and Automation(sole role)
 
-Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
+The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
-Contribution: Building Prometheus and Grafana on an existing Kubernetes platform to monitor both containers and VMs, integrating alerting and visualization.
+**Responsibilities**  
+Standardized operating systems, simplified and automated VM provisioning and management process.
 
-Value Created: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
- 
-`project`
+**Value Created** 
+Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
-**Troubleshooting and Improving CI/CD Pipelines**
 
-Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
+#### Troubleshooting and Improving CI/CD Pipelines
 
-Contribution: Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
+The development team encountered various errors and instability when running pipelines on self-hosted runners.
 
-Value Created: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
+**Responsibilities**  
 
-`project`
+Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
 
-**Infrastructure Standardization and Automation(sole role)**
+**Value Created** 
+Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
-Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
+#### Automating Provisioning of Red Hat Linux (sole role)
 
-Contribution: Standardized operating systems, simplified and automated VM provisioning and management process.
+- RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
+- RHEL9 needs to be tested and configured before production use.
 
-Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
+**Responsibilities**  
 
-`project`
+- Designed upgrading plan with application owners and automated upgrading job with Ansible.
+- Created a customized Red Hat image template for VMware and tested aginst production environment.
 
-**Automating Upgrading RHEL7 to RHEL8 (sole role)**
+**Value Created** 
 
-Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
+Ensure systems are aligned with security compliance standards.
 
-Contribution: Designed upgrading plan with application owners and automated upgrading job with Ansible.
 
-Value Created: Ensure systems are aligned with security compliance standards.
+#### Ansible Automation Platform on Openshift
 
+With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
 
-`project`
+**Responsibilities**  
 
-**Ansible Automation Platform on Openshift**
+Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
 
-Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
+**Value Created** 
 
-Contribution: Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
+Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
 
-Value Created: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
+#### ★ Automating Patching of Red Hat VM (sole role)
 
+The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
-`project`
+**Responsibilities**  
 
-**Deploying Red Hat 9 to Production Infrastructure (sole role)**
+Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
 
-Description: Need to test RHEL9 and make it ready for production use.
+**Value Created** 
 
-Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for VMware, and integrated the system with Windows AD.
-
-Value Created: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
-
-
-`project`
-
-**Automating Patching of Red Hat VM (sole role)**
-
-Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
-
-Contribution: Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
-
-Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
-
-`project`
-
-**Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform**
-
-Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
-
-Contribution: Designed and implemented an Ansible-based workflow that automated the process of provisioning VM into the production environment.
-
-Value Created: Streamlined installation, configuration, and management of VM.
-
-
-`project`
-
-**Deploying critical application to infrastructure(sole role)**
-
-Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
-Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
-
-Value Created: Ensure that the system is aligned with organization policies.
-
-`project`
-
-**Splunk Implementation**
-
-Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
-
-Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
-
-Value Created: Enhanced system reliability and performance by proactively identifying incidents.
+Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
 
 `2011-2022`
