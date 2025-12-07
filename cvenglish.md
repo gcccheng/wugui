@@ -212,7 +212,7 @@ Terraform state files were previously stored on local disks, causing issues like
 
 ---
 
-#### Implementing GitOps Deployment Workflow with Argo CD (sole role)**
+#### Implementing GitOps Deployment Workflow with Argo CD (sole role)
 
 With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
@@ -223,20 +223,6 @@ With increasing demands from developers for faster and more flexible deployments
 ##### Value Created
 
 - Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
-
----
-
-#### Troubleshooting and Improving CI/CD Pipelines
-
-The development team encountered various errors and instability when running pipelines on self-hosted runners.
-
-##### Responsibilities 
-
-- Troubleshooted pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
-
-##### Value Created
-
-- Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 ---
 
@@ -258,6 +244,19 @@ The organisation needed to both upgrade a large RHEL7  approaching end-of-suppor
 
 ---
 
+#### Improving CI/CD Pipelines
+
+The development team encountered various errors and instability when running pipelines on self-hosted runners.
+
+##### Responsibilities 
+
+- Troubleshooted pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
+
+##### Value Created
+
+- Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
+
+---
 
 `2011-2022`
 
