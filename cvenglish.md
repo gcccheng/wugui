@@ -50,7 +50,7 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security (SBOM/signing), and audit logging.
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
-#### Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
+#### ★ Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
 To ensure infrastructure resilience and verify that the platform could be fully recovered at any time, we performed quarterly DR drills that involved destroying all non-production infrastructure and rebuilding it from scratch using IaC workflows.
 
 ##### Responsibilities
@@ -100,7 +100,7 @@ The existing use of GitHub self-hosted runners on virtual machines (VMs) led to 
 - Demonstrated developer onboarding through the Developer Portal and documented a reference architecture applicable to Kong / Apigee / AWS API Gateway.
 ##### Value Created
 - Delivered a working MVP showing how API traffic, authentication, and governance could be centralised. Provided a clear foundation for future API-first adoption, even though the PoC did not proceed to production.
-#### Implementing Ceph Storage Integration for OpenShift (client project)
+#### ★ Implementing Ceph Storage Integration for OpenShift (client project)
 The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
 ##### Responsibilities
 - Deployed and configured a Ceph cluster to serve as the storage backend for OpenShift, ensuring high availability and replication across nodes.
@@ -110,6 +110,19 @@ The client required a scalable and highly available storage backend to support s
 ##### Value Created
 Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably.
 Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
+#### ★ Automating Patching of Red Hat VM (sole role)
+- The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
+##### Responsibilities
+- Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
+##### Value Created 
+- Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
+#### ★ Ansible Automation Platform on Openshift
+- With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
+##### Responsibilities
+- Collaborated with teams on deploying the Ansible Automation Platform on Openshift. 
+##### Value Created
+- Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
+  
 #### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 - Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
 ##### Responsibilities
@@ -122,12 +135,7 @@ Improved resilience and reduced operational risk through automated failover and 
 - Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
 ##### Value Created
 - Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
-#### ★ Automating Patching of Red Hat VM (sole role)
-- The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
-##### Responsibilities
-- Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
-##### Value Created 
-- Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
+
 #### Infrastructure Standardization and Automation(sole role)
 - The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 ##### Responsibilities 
@@ -148,13 +156,7 @@ Improved resilience and reduced operational risk through automated failover and 
 - Created a customized Red Hat image template for VMware and tested aginst production environment.
 ##### Value Created
 - Ensure systems are aligned with security compliance standards.
-#### Ansible Automation Platform on Openshift
-- With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
-##### Responsibilities
-- Collaborated with teams on deploying the Ansible Automation Platform on Openshift. 
-##### Value Created
-- Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
-  
+
 `2011-2022`
 
 ### System Engineer at University of Oslo
