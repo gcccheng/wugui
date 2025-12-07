@@ -87,15 +87,33 @@ Took sole role in designing and implementing a high-availability Kubernetes clus
 
 Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
 
+#### API Gateway & API Management MVP on OpenShift (Customer PoC)
+
+Led a proof-of-concept to evaluate enterprise API gateway and management capabilities for a client needing consistent authentication, routing, and rate control across microservices.
+
+**Responsibilities**
+
+Deployed Red Hat 3scale (API Manager + APIcast Gateway) on OpenShift using the official Operator and APIManager CRD.
+
+Configured products, backends, routing rules, API keys, and rate-limit plans to model real internal APIs and governance workflows.
+
+Demonstrated developer onboarding through the Developer Portal and documented a reference architecture applicable to Kong / Apigee / AWS API Gateway.
+
+**Value Created**
+
+Delivered a working MVP showing how API traffic, authentication, and governance could be centralised. Provided a clear foundation for future API-first adoption, even though the PoC did not proceed to production.
+
 
 #### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 
 Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
 
-**Responsibilities**  
+**Responsibilities** 
+
  Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
 
 **Value Created**
+
 Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 #### Implementing GitOps Deployment Workflow with Argo CD (sole role)**
@@ -115,9 +133,11 @@ Established a flexible and automated deployment pipeline aligned with GitOps, en
 The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
 **Responsibilities**  
+
 Standardized operating systems, simplified and automated VM provisioning and management process.
 
 **Value Created** 
+
 Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
 
@@ -130,13 +150,13 @@ The development team encountered various errors and instability when running pip
 Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
 
 **Value Created** 
+
 Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 #### Automating Provisioning of Red Hat Linux (sole role)
 
 - RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 - RHEL9 needs to be tested and configured before production use.
-
 
 **Responsibilities**  
 
