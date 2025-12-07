@@ -71,7 +71,7 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 - Access to online documentation, release notes and configuration guides
 - Support case submission and diagnostic/log uploads
 - Contract manufacturer (CM) workflows, including access to build artifacts and production resources
-- 
+  
 ##### Responsibilities (in progress)
   
 - Designing and operating the **Azure infrastructure foundation** for the Hub using **Azure Container Apps, VMs, Azure Container Registry, Blob Storage, Front Door and DNS**.  
@@ -126,6 +126,18 @@ The existing use of GitHub self-hosted runners on virtual machines (VMs) led to 
 ##### Value Created
 
 - Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
+  
+#### ★ Automating Patching of Red Hat VM (sole role)
+- The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
+  
+##### Responsibilities
+
+- Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
+
+##### Value Created 
+
+- Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
+- 
 #### Infrastructure Standardization and Automation(sole role)
 - The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
   
@@ -168,16 +180,6 @@ The existing use of GitHub self-hosted runners on virtual machines (VMs) led to 
 ##### Value Created
 
 - Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
-#### ★ Automating Patching of Red Hat VM (sole role)
-- The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
-  
-##### Responsibilities
-
-- Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
-
-##### Value Created 
-
-- Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
   
 `2011-2022`
 
