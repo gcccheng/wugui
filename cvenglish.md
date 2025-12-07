@@ -217,7 +217,9 @@ Streamlined patching, reduced errors, and improved system uptime and security ac
 `2011-2022`
 ### System Engineer at University of Oslo
 
-At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers. Key activities included:
+At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers. 
+
+**Responsibilities**
 
 Server & Infrastructure Management: Installed, configured, and maintained compute systems for scientific workloads, including Linux-based compute nodes, distributed HPC servers, and NVIDIA GPU-accelerated machines. Built and operated foundational components of the university’s high-performance computing environment, ensuring system reliability, performance, and scalability across research workloads.
 
@@ -237,6 +239,8 @@ This role formed the foundation for Gang’s later specialization in large-scale
 `2008`
 ### Archive Assistant & Logger — Olympic Broadcasting Services (OBS), Beijing Olympics  
 OBS is the International Olympic Committee’s broadcast organization responsible for host broadcasting for the Olympic Games.
+
+**Responsibilities**
 
 - Logged event highlights (SOG) with timestamps for indexing and editing workflows.
 - Worked at the International Broadcast Center (IBC) with global production teams handling multi-venue live feeds.
