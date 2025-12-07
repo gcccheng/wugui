@@ -14,7 +14,7 @@ Red Hat Certified Architect, Red Hat Certified Professional of the Year, Infrast
 
 Gang is self-motivated professional who believes that continuous learning and the ability to rapidly adopt new technologies are essential qualities of a modern infrastructure professional. Throughout his career, he has proactively built expertise in designing and operating large-scale systems through hands-on projects, professional certifications, technical workshops, conferences, courses, and collaboration with industry peers. His dedication and technical depth were formally recognized when he was named the **Red Hat Certified Professional of the Year 2024**, the sole global recipient of the award.
 
-Beyond his foundation in Red Hat technologies, Gang has expanded his skills across DevOps engineering, cloud-native platform engineering, site reliability engineering, on-premises data center, and high-performance computing environments, regardless of title and environment, Gang adapts to what the business require. He has also worked closely with security leaders to ensure that platforms meet modern security and compliance expectations, gaining hands-on experience with implementing practical security controls and supporting audit readiness efforts. 
+Beyond his strong Red Hat background, Gang has worked across **DevOps, cloud-native platform engineering, site reliability engineering, on-prem data centres, high-performance computing and GPU-accelerated environments**. He has hands-on experience with **Kubernetes, OpenShift, Rancher, GitOps, IaC, observability, security hardening and compliance-oriented platform design**. Regardless different environment, Gang adapts to what the business require. In recent years, he has also started to **integrate LLM/AI capabilities into existing platforms**, exploring how to provide AI safely and reliably as a shared internal service rather than as an isolated tool. He has also worked closely with security leaders to ensure that platforms meet modern security and compliance expectations, gaining hands-on experience with implementing practical security controls and supporting audit readiness efforts. 
  
 With over a decade of hands-on experience across diverse IT infrastructure environments, he has successfully delivered stable, high-performance platforms, created value for stakeholders, and collaborated closely with developers, researchers, and cross-functional teams. His strong communication skills, structured thinking, and collaborative mindset continue to enable him to drive meaningful contributions in complex engineering organizations.
 
@@ -23,21 +23,22 @@ With over a decade of hands-on experience across diverse IT infrastructure envir
 ### Senior Platform Engineer — Appear TV, Oslo, Norway  
 Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including BCUniversal、Warner Bros. Discovery、NHL、Formula 1、Riot Games. Reliability, low latency and system stability are core to its products.
 
-**Responsibilities & Achievements**
+#### ★ Internal AI & Developer Experience Platform (LLM Enablement)
 
-##### ★ Internal AI Platform (AI Capability Enablement)
-Designed and delivered Appear’s internal AI platform based on OpenWebUI to support engineering use-cases such as log analysis, documentation generation, error explanation and code assistance.
+Designed and delivered an **internal AI/LLM enablement platform** to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
 
-- Served as project technical owner; led the full architecture and implementation.
-- Evaluated OpenWebUI, Ollama, LM Studio and other LLM tooling; drove final platform selection.
-- Designed containerized deployment, model management workflow, plugin system and multi-team access control.
-- Led a 2–3 person initiative for rollout, optimization and knowledge base integration.
-- Promoted AI-assisted engineering practices across R&D teams.
+- Acted as technical owner for the initiative, from architecture to implementation and rollout.
+- Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
+- Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
+- Prototyped **multi-model routing strategies** to map request types (e.g. translation, summarisation, code) to appropriate backends.
+- Implemented basic prompt governance and usage logging, laying groundwork for **responsible AI and auditability**.
+- Worked with several R&D teams to promote AI-assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
 
 **Impact**
-- Established the company’s first unified AI portal, greatly lowering adoption barriers.
-- Engineering teams’ AI usage increased substantially, shifting from ad-hoc to systematic use.
-- Formed the foundation for future RAG, code indexing and AI-driven DevEx automation.
+
+- Established the company’s first **unified internal AI entry point**, significantly lowering the barrier for engineers to use LLMs in daily work.
+- Shifted AI usage from ad-hoc, individual experimentation to **systematic, policy-aware consumption**.
+- Created a practical foundation for future **AI Gateway-style capabilities** such as multi-tenant routing, observability and governance.
 
 ---
 
