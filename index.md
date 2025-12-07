@@ -5,7 +5,7 @@ title: 程刚中文简历
 
 # 程 刚（Gang Cheng）
 
-Red Hat 认证架构师（RHCA）｜Red Hat 2024年度认证专业人士(RHCP)｜基础架构工程师 ｜ DevOps 工程师 ｜ 平台工程师 ｜ Developer Experience 工程师  
+Red Hat 认证架构师（RHCA）｜Red Hat 2024 年度认证专业人士 (RHCP of the Year)｜基础架构工程师 ｜ DevOps 工程师 ｜ 平台工程师 ｜ Developer Experience 工程师  
 
 <div id="webaddress">
 <a href="https://www.redhat.com/zh-cn/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat 官方页面对程刚的简介</a> |
@@ -14,237 +14,307 @@ Red Hat 认证架构师（RHCA）｜Red Hat 2024年度认证专业人士(RHCP)�
 
 ## 概要（Summary）
 
-程刚是一位深耕基础架构、云原生与 DevOps 领域的资深人士，开源拥趸，拥有十年以上欧洲一线企业与科研机构的实战经验，曾在媒体科技、金融技术服务、大型政府 IT 部门以及高性能科研计算环境中承担核心平台建设工作。他在 Kubernetes 平台、DevOps 体系化建设、基础设施自动化、可观测性和云平台架构方面具有扎实的工程能力与丰富的落地经验，并在职业早期参与建设和运维高性能计算（HPC）集群，处理分布式计算节点、NVIDIA GPU 服务器、Slurm 调度与并行计算环境。
+程刚是一位自驱力极强、长期深耕基础架构、云原生与 DevOps 领域的工程师，拥有十余年在欧洲一线企业和科研机构的实战经验。他坚信持续学习和快速拥抱新技术是现代基础架构工程师最核心的能力，因此在职业生涯中主动通过大型项目实践、专业认证、技术工作坊、会议交流和行业合作，不断打磨自己在大规模系统设计与运维方面的能力。
 
-2024 年，程刚荣获 **Red Hat Certified Professional of the Year** ——
-这是 Red Hat 面向全球红帽认证工程师授予的最高级别技术奖项，
-每年在全球仅选出一位获奖者。他不仅是 全球年度唯一获奖者，同时，他也是该奖项设立以来首位来自中国的获奖工程师。
-这一荣誉代表了业界对他在 Red Hat、容器平台、自动化、OpenShift、Ansible 以及企业级基础架构设计与实施方面的高度认可。
+2024 年，他被授予 **Red Hat Certified Professional of the Year 2024**，这是 Red Hat 面向全球认证工程师颁发的年度最高技术荣誉，当年全球仅此一人。这一奖项高度认可了他在 Red Hat 企业级 Linux、OpenShift、Ansible 自动化、容器与平台工程领域的深度实践与技术影响力。
 
-除了在平台工程与自动化方面的深厚积累外，程刚长期与安全负责人密切合作，负责在 Kubernetes 和 DevOps 环境中落地实际可运行的安全与合规控制，包括访问权限治理、供应链安全、网络与配置基线、日志审计与漏洞修复等实际工程工作。他也参与审计准备流程，确保系统在满足业务需求的同时符合现代安全与合规要求。无论团队规模、组织架构或岗位头衔如何变化，他始终能够根据业务目标快速适应，承担关键平台职责，推动稳定性、可靠性与合规性的持续提升。
+在技术广度与深度方面，他覆盖了 **DevOps、云原生平台工程、站点可靠性工程（SRE）、本地数据中心、高性能计算（HPC）以及 GPU 加速环境** 等多个方向，长期从事 **Kubernetes / OpenShift / Rancher、GitOps、基础设施即代码（Terraform / Ansible）、可观测性、安全加固与面向合规的平台设计** 等工作。无论环境是在本地数据中心、公有云还是混合云，他都能围绕业务需求进行架构设计与工程落地。
 
-在多个岗位中，他担任平台核心负责人角色，具备带领小型工程团队推进复杂基础设施项目落地的经验，能够独立完成架构设计、项目拆解、跨团队协作以及工程落地。他重视工程质量、可维护性与可扩展性，擅长以工程方式解决复杂问题，并推动系统性、长期价值的建设。
+近几年，他开始将 **LLM/AI 能力集成到现有平台**，探索如何以“平台服务”的形式为内部团队提供安全、可控、可审计的 AI 能力，而不是零散的个人工具使用。同时，他与安全团队紧密合作，参与平台安全基线设计、实际安全控制落地以及审计准备工作，确保平台在性能和敏捷性之外，也满足现代安全与合规要求。
 
-作为极具自驱力的工程师，他持续投入学习并主动吸收新技术，具备从 0 到 1 搭建平台体系的能力，也能够在现有架构中识别瓶颈、推动优化，帮助组织构建更稳定、更安全、更高效的基础设施能力。
+凭借十年以上多样化基础设施环境经验，他多次交付稳定、高性能的平台，为业务方、开发者和科研用户创造价值，并与跨职能团队保持高效协作。他良好的沟通、结构化思维和协作能力，使其能够在复杂工程组织中持续输出有价值的成果。
+
+---
 
 ## 工作经历（Employment）
 
 `2025–至今`  
-### **Senior Platform Engineer（平台技术负责人） — Appear TV（挪威·全球领先的视频编解码与分发技术提供商）**
+### Senior Platform Engineer — Appear TV（挪威 奥斯陆）
 
 **公司简介**  
-Appear TV 是欧洲领先的视频传输、编解码和媒体分发技术公司，北欧上市企业，客户涵盖全球一线广播机构、通信运营商与大型媒体集团。公司产品广泛应用于奥运会、世界杯等高并发、高稳定性场景，对底层基础设施的可靠性要求极高。
+Appear TV 是欧洲领先的视频压缩、媒体处理与分发技术提供商，客户包括全球主要广播机构、电信运营商和大型赛事组织，例如 NBCUniversal、Warner Bros. Discovery、NHL、Formula 1、Riot Games 等，对底层基础设施的稳定性、安全性和低时延要求极高。
 
-**岗位定位**  
-作为平台技术负责人，负责公司底层基础设施架构规划、云原生平台建设与 DevOps 体系升级，同时带领小型技术团队（协作性质），支撑核心研发团队的高性能研发体系。
+#### ★ 内部 AI / LLM 能力与开发者体验平台（Internal AI & Developer Experience Platform）
 
-**核心工作与成果**
+**项目背景**  
+为支持工程团队在日志与遥测分析、文档生成、故障说明、代码辅助等场景下更好地使用大模型，需要从零搭建一个统一的内部 AI / LLM 能力平台，替代零散的个人账号与工具试验，同时满足访问控制与合规要求。
 
-- **从 0 到 1 搭建裸金属 Kubernetes 平台**  
-  - 主导设计与落地基于 Rancher + Flatcar 的多节点高可用 Kubernetes 集群  
-  - 使内部多语言研发体系（Rust/C++/Python/Yocto）统一使用容器化环境
+**职责（Responsibilities）**
 
-- **建设 GitOps 体系（GitLab + ArgoCD + Kustomize）**  
-  - 推动研发团队从手工部署迁移到 GitOps 流程  
-  - 实现代码提交到自动发布的全链路自动化  
+- 作为这一计划的技术 Owner，从架构设计、技术选型到落地与推广全程负责。  
+- 评估多种 LLM 后端与工具（托管 API 与本地推理），重点对比 **延迟、并发特性、Token 成本与生成质量**，包括 OpenAI、RequestyAI 以及本地 Llama 模型等。  
+- 设计基于 Kubernetes 的容器化部署模型，集成公司现有 SSO / 开发者工具，支持团队隔离与访问控制。  
+- 对比不同模型在翻译、总结、代码、文档生成等任务上的效果，探索“请求类型 → 最合适模型”的匹配策略。  
+- 实现基础的 Prompt 管理与使用记录，为后续 **负责任 AI 与审计能力** 打下基础。  
+- 与多支研发团队合作，推动 AI 助力工程的使用方式，收集反馈以支持未来如 RAG、代码搜索、知识库集成等能力的迭代。
 
-- **基础设施自动化（Terraform + Ansible）**  
-  - 统一 IaC 标准，所有基础设施资源实现版本化与自动化  
-  - 发布效率显著提升
+**价值（Value Created）**
 
-- **平台核心组件管理**  
-  - 负责 Harbor、TrueNAS NFS、ExternalDNS、Bind9、MetalLB 等基础组件  
-  - 构建平台级监控体系（Prometheus + Grafana）
-
-- **与 首席信息安全官CISO 合作推进全链路安全合规**  
-  - 覆盖 RBAC、供应链安全、镜像扫描、网络隔离策略  
-  - 确保平台满足欧洲行业安全要求
+- 建立公司首个 **统一的内部 AI 入口**，显著降低工程团队日常使用 LLM 的门槛。  
+- 将 AI 使用从个人、临时、不可控试验，升级为 **系统化、可治理、可审计的内部能力**。  
+- 为未来构建类似“AI Gateway”的多租户路由、可观测性与治理能力提供了坚实平台基础。
 
 ---
 
-#### ★ 项目：构建公司内部 AI 应用平台（AI 能力体系化建设）
+#### ★ DevOps 平台与云原生基础设施（Cloud-Native Infrastructure Foundation）
 
-**项目背景（Project Background）**  
-随着生成式 AI 在媒体与视频技术行业快速发展，Appear 需要构建统一的内部 AI 能力平台，以支持代码分析、文档生成、日志解释与研发辅助等核心场景。现有工具分散且缺乏企业级访问控制，需要一个统一且可扩展的平台。  
-OpenWebUI 是当前最受工程团队欢迎的轻量级企业级 LLM 平台，支持模型管理、插件生态、多工具链扩展，适合企业内部构建 AI 能力中心。
-
-**个人角色与贡献（Contribution）**  
-- 项目技术 Owner，从 0 到 1 设计并落地 Appear 内部 AI 平台  
-- 评估 OpenWebUI、Ollama、LM Studio 等主流 LLM 平台并主导最终选型  
-- 设计平台整体架构，包括容器化部署、模型管理、pipeline功能、rag功能等  
-- 为内部研发团队提供**统一 AI能力入口（AI Portal）** ，带领 2–3 人小组完成部署、调优与持续改进  
-- 推动 AI 能力融入公司研发流程，建立内部 AI 使用规范，并让AI的使用变得可控可管理，符合安全标准
-- 为 RAG、代码库索引、文档自动生成等未来 AI 能力奠定平台基础  
-- 强化公司在欧洲媒体技术领域的创新能力
+- 设计并构建基于 **Rancher + Flatcar 的高可用裸金属 Kubernetes 平台**，支撑内部多种业务与工具运行。  
+- 使用 **GitLab CI、Argo CD、Kustomize** 实现 GitOps 工作流，使部署过程可审计、可追溯。  
+- 通过 **Terraform** 标准化基础设施资源的创建与管理，并配合 CI/CD 流水线实现自动化交付。  
+- 维护并运营关键平台组件：Harbor 镜像仓库、TrueNAS NFS 存储、ExternalDNS、Bind9、MetalLB、Yocto 相关构建环境以及 GitLab Runners 等。  
+- 使用 **Prometheus + Grafana** 构建平台与工作负载的可观测性体系，覆盖集群、应用以及流水线指标。  
+- 与 CISO 和安全架构师紧密合作，在 Kubernetes 与 DevOps 环境中落地安全与合规控制，支持公司向 IPO 和 ISO 27001 认证做准备。  
+- 交付平台安全加固方案，包括 RBAC / IAM 治理、网络策略、机密与密钥管理、漏洞修复流程、镜像扫描与供应链安全（SBOM / 签名）、审计日志等。  
+- 在敏捷开发模式下工作，参与 Sprint 计划、每日站会和迭代交付；经常使用 Jira 与 Confluence 管理工作与平台变更文档。
 
 ---
 
-#### ★ 项目：Appear Hub（Azure 客户交付平台）
+#### ★ 季度级灾备演练：基于 IaC 的全栈基础设施重建（Quarterly DR & Full Infra Rebuild via IaC）
 
-**项目背景（Project Background）**  
-为全球客户提供固件、文档、License 统一下载门户，需要一个高可用、全球访问优化、可审计的交付系统。
+**项目背景**  
+为验证平台在灾难场景下的可恢复能力，并确保基础设施即代码（IaC）始终真实、完整且可用，团队定期执行破坏性灾备演练：**每季度对非生产环境基础设施进行“全量销毁 + 从零重建”**。
 
-**个人角色与贡献（Contribution）**  
-- 主导整体架构设计，使用 **Azure Container Apps + Front Door + Blob Storage**  
-- 构建自动化交付流水线（GitLab CI/CD），从打包、构建到部署全链路  
-- 提供全球加速、高可用、安全访问策略
+**职责（Responsibilities）**
 
-**项目价值（Value Created）**  
-- 客户访问体验显著提升  
-- 提高文档/固件交付流程自动化率
-- 客户支持类工单减少大量重复性问题
+- 设计并执行季度 DR 演练，完整移除现有的 Kubernetes 集群、虚拟机、网络、存储和各类平台服务。  
+- 使用 **Terraform + Ansible + 集群引导脚本** 对整个环境进行自动化重建，验证 IaC 描述的完整性和时效性，确保可直接用于生产级恢复。  
+- 确保恢复过程可重复、时间可预测，最大限度降低对手工操作的依赖，提高整体基础设施可靠性。  
+- 编写 DR 操作文档，对恢复时间进行度量，为安全与合规提供可审计的 Evidence。
 
+**价值（Value Created）**
+
+- 建立可被证明、可审计的灾备能力，确认平台可从“零基础设施”状态依赖 IaC 完整恢复。  
+- 降低配置漂移风险，增强平台韧性与合规性，为重大故障或灾难恢复提供可靠保障。
+
+---
+
+#### ★ Appear Hub 平台（Azure 全球客户与合作伙伴门户 — 进行中）
+
+**项目背景**  
+Appear Hub 是一个新一代门户平台，用于替代多个历史系统，为全球客户和代工厂提供统一、可信和安全的访问入口，支持：
+
+- 固件与软件版本的发布与下载  
+- 已部署设备的 License 与授权管理  
+- 在线文档、发布说明与配置指南访问  
+- 支持请求、日志与诊断信息上传  
+- 合同制造商（CM）的生产相关操作与资源访问等  
+
+**职责（Responsibilities — in progress）**
+
+- 设计并运营 Appear Hub 所依赖的 **Azure 基础设施**，使用 **Azure Container Apps、虚拟机、Azure Container Registry、Blob Storage、Front Door 与 DNS** 等服务。  
+- 使用 **Entra ID（Azure AD）** 设计安全的认证与授权模型，通过基于角色的访问控制（RBAC）区分客户、内部用户与代工厂用户。  
+- 建立 CI/CD 与 IaC 模式，确保环境可重复、部署可审计、变更可追溯。  
+- 使用 **Azure Monitor / Log Analytics / Application Insights** 实现可观测性，关注可用性、延迟、下载成功率与支持请求相关指标。  
+- 与产品、支持和制造团队一起沟通需求，将其抽象为稳定、可演进的平台能力。
+
+---
 
 `2022–2025`  
-### **Senior Infrastructure Engineer（核心基础设施架构师） — Sopra Steria（欧洲前5咨询公司）**
+### Senior Infrastructure Engineer — Sopra Steria（挪威）
 
-**公司简介**  
-Sopra Steria 是欧洲 Top 5 的大型咨询与 IT 服务集团，为政府、金融、电信、能源等领域客户提供关键 IT 基础设施与数字化服务。项目规模大、合规要求重、交付周期长，是锻炼工程实践能力的典型环境。
+在 Sopra Steria 任职期间，主要以 DevOps / 基础架构工程师身份为多个大型客户提供咨询与落地服务，主导或参与的项目包括：
 
-**岗位定位**  
-作为基础设施核心工程师 & 技术主力，负责客户云原生平台建设、CI/CD 能力提升、自动化体系搭建，同时承担小团队技术带教工作。
+#### ★ 搭建高可用 Kubernetes 平台与 GitHub Actions Runner Controller（ARC）（独立负责）
 
-**核心工作与成果**
+**背景**  
+客户原先使用基于虚拟机的 GitHub self-hosted runners，存在扩展性差、资源占用高、隔离性不足以及运维成本较高等问题，难以支撑越来越多的 CI/CD 工作流。
 
-- **主导构建企业级 Kubernetes + GitHub ARC（关键里程碑项目）**  
-  - 解决原 VM Runner 不稳定、扩展性不足问题  
-  - 实现 CI/CD 动态扩缩容，每次构建自动创建/销毁  
-  - 构建效率提升 **数倍**，故障率显著下降
+**职责（Responsibilities）**
 
-- **设计并落地内部 S3（MinIO）作为 Terraform State 后端**  
-  - 完全替代本地 state 文件  
-  - 实现版本化、加密与团队协作  
-  - 基础设施管理合规化、可审计化
+- 独立设计并实现高可用 Kubernetes 集群，部署 GitHub Actions Runner Controller (ARC) 管理动态 Runner。  
+- 将 CI/CD 工作流从 VM Runner 迁移到 Kubernetes 平台，实现按需创建/销毁 Runner 的弹性能力。  
+- 设计自动伸缩策略和隔离机制，与开发团队协作重构流水线。  
+- 建立监控与告警，确保新平台稳定运行。
 
-- **搭建 GitOps 体系（ArgoCD + Helm + Kustomize + GitHub）**  
-  - 让开发团队可以“提交即部署”  
-  - 发布效率显著提升，环境出错率降低 
+**价值（Value Created）**
 
-- **建设统一可观测平台（Prometheus + Grafana）**  
-  - 从零构建 VM + 容器 + 应用级指标体系  
-  - 让 SRE 和基础架构团队可实时感知系统状态
+- 提供安全、可扩展、自动化的 CI/CD Runner 平台，显著降低手工运维工作。  
+- 提升构建可靠性与隔离性，提升开发者生产力，并为后续规模化扩展打下基础。
 
-- **CI/CD 流水线深度优化**  
-  - 重构底层构建镜像与 pipeline   
-  - 故障排查难度降低 
-  - 提升开发团队交付体验（DevEx）
-- **Red Hat 虚拟机补丁自动化（独立负责）**
-  - 大规模 Red Hat 环境人工补丁耗时长、易出错，需要构建更高效、可审计的自动化补丁方案。
-  - 基于 Ansible 与 Red Hat Satellite 设计并实现补丁自动化工作流，替代传统手工流程。
-  - 显著提升补丁效率、减少操作错误、增强系统安全性并提升整体正常运行时间（uptime）。
+---
 
-- **主导 RHEL7→RHEL8 自动化迁移项目**  
-  - 使用 Ansible 实现大规模Red Hat批量升级  
-  - 合规性和维护性全面提升
+#### ★ API Gateway 与 API 管理平台 MVP（OpenShift 上的客户 PoC）
 
-- **Ansible Automation Platform（AAP）在 OpenShift 上的部署负责人**
-  - 设计，安装，部署AAP
-  - 迁移大规模Ansible工作流到AAP平台
+**背景**  
+客户需要对内部微服务 API 进行统一治理，包括认证、路由与限流策略，以支持未来更大规模的 API 使用场景。
 
-这一阶段使我具备了高复杂度基础设施项目的落地能力，也具备带领小组、推动跨团队协作的能力。
+**职责（Responsibilities）**
+
+- 在 OpenShift 上部署 **Red Hat 3scale API Management**，包括 API Manager 与 APIcast Gateway，使用官方 Operator 与 APIManager CRD。  
+- 配置 products、backends、路由规则、API Key 与限流（rate-limit）方案，模拟真实内部 API 的治理流程。  
+- 演示开发者门户（Developer Portal）的使用，包括 API 文档、凭证发放与集成示例。  
+- 编写可迁移的参考架构文档，为未来使用 Kong / Apigee / AWS API Gateway 等产品时提供指导。
+
+**价值（Value Created）**
+
+- 交付可运行的 PoC，展示如何集中治理 API 流量、认证和访问控制。  
+- 虽未进入生产，但为客户后续 API-First 战略提供了清晰的架构方向与决策依据。
+
+---
+
+#### ★ 在 OpenShift 上集成 Ceph 存储（Ceph Storage Integration for OpenShift）
+
+**背景**  
+客户需要为 OpenShift 上的有状态业务提供可扩展、高可用的存储后端。
+
+**职责（Responsibilities）**
+
+- 部署并配置 Ceph 集群作为 OpenShift 的存储后端，确保节点间复制与高可用。  
+- 通过 StorageClass 与动态 PVC 机制，将 Ceph 集成到 OpenShift，支持数据库、消息队列等有状态服务。  
+- 验证读写性能、冗余能力与故障恢复流程。  
+- 编写运维文档，包括 OSD 故障恢复、节点替换、监控与容量规划。
+
+**价值（Value Created）**
+
+- 为 OpenShift 工作负载提供生产级存储基础，使有状态服务能够稳定运行。  
+- 通过自动故障转移与自愈能力降低存储相关运维风险。
+
+---
+
+#### ★ 基于 MinIO 的 Terraform State 管理后端（S3-Compatible Backend on Kubernetes）
+
+**背景**  
+Terraform state 文件原本存放在本地磁盘，缺乏版本管理与协作能力；由于政策限制，无法使用公共云 S3。
+
+**职责（Responsibilities）**
+
+- 在内部 Kubernetes 平台上设计并部署 MinIO，作为兼容 S3 的集中式 Terraform state 后端。  
+- 将其集成到 GitHub Actions 流水线中，实现安全、版本化的 Terraform state 存储。  
+
+**价值（Value Created）**
+
+- 构建可靠、集中、可版本化的 Terraform state 后端，提高协作性与审计能力。  
+- 在不依赖公有云的前提下，显著提升基础设施管理的稳定性与合规性。
+
+---
+
+#### ★ 使用 Argo CD 实现 GitOps 部署流程（独立负责）
+
+**背景**  
+随着开发团队对快速发布和多环境灵活切换的需求提高，需要构建一个基于 Git 的自动化部署平台，实现“代码合并即触发部署”。
+
+**职责（Responsibilities）**
+
+- 使用 Argo CD 设计与实现 GitOps 流程，将 GitHub 分支映射到不同 Kubernetes Namespace，实现自动化部署。  
+- 构建基于 Helm 的可复用模板与分层仓库结构，支持动态环境。  
+- 实施 RBAC 与项目隔离策略，保障安全性；与开发团队协作设计部署流程。
+
+**价值（Value Created）**
+
+- 建立灵活、自动化的 GitOps 部署管道，支持开发者自助部署到多环境。  
+- 提高发布速度、一致性与安全性，显著降低运维负担。
+
+---
+
+#### ★ Red Hat 虚拟机补丁自动化（Automating Patching of Red Hat VM，独立负责）
+
+**背景**  
+客户拥有大规模 Red Hat 环境，手工打补丁耗时巨大且易出错，需要构建自动化补丁机制。
+
+**职责（Responsibilities）**
+
+- 基于 Ansible 与 Red Hat Satellite 设计并实现自动化补丁工作流。  
+
+**价值（Value Created）**
+
+- 显著简化补丁流程，减少人为错误，提高整体可用性与安全性。
+
+---
+
+#### ★ 基础设施标准化与自动化（Infrastructure Standardization and Automation）
+
+- 针对多环境管理分散、标准不统一的问题，推动操作系统与虚拟机部署流程标准化。  
+- 通过自动化 Provisioning 与配置管理，提升一致性、安全性与交付速度。
+
+---
+
+#### ★ CI/CD 流水线故障排查与优化（Troubleshooting & Improving CI/CD Pipelines）
+
+- 针对自托管 Runner 上的流水线错误和不稳定问题，负责问题定位、性能优化与可靠性提升。  
+- 与开发团队协作，使其从反复排障中解放出来，专注业务开发。
+
+---
+
+#### ★ Red Hat Linux 自动化部署与升级（Automating Provisioning & Upgrade of Red Hat Linux）
+
+- 针对 RHEL7 即将停止支持的情况，规划并实施大规模自动化升级。  
+- 与应用负责人协作制定升级计划，使用 Ansible 编排升级流程。  
+- 创建 RHEL9 VMware 模板并在接近生产环境中验证。  
+
+**价值（Value Created）**
+
+- 确保大规模系统按时完成升级，满足安全与合规要求。
+
+---
+
+#### ★ 在 OpenShift 上部署 Ansible Automation Platform（Ansible Automation Platform on OpenShift）
+
+- 参与在 OpenShift 上部署 Ansible Automation Platform（AAP），将分散的 Playbook、Inventory、Workflow 集中到平台管理。  
+- 减少手工任务与管理错误，提升自动化运维能力与安全性。
+
+---
 
 `2011–2022`  
-### **System Engineer（系统工程师） — University of Oslo（挪威顶尖科研机构）**
+### System Engineer — University of Oslo（挪威奥斯陆大学）
 
-**公司简介**  
-挪威奥斯陆大学（UiO）是北欧顶尖研究型大学，其科研计算环境对稳定性、性能、数据安全性要求极高。
+在奥斯陆大学（UiO）工作期间，主要负责 NCMM（分子医学中心）科研数据中心的基础设施与高性能计算环境：
 
-**岗位定位**  
-负责科研数据中心的核心基础设施运维、HPC 支持、虚拟化平台管理，是实验室研发活动的重要技术支撑角色。
+- 部署与维护 Linux 计算节点、分布式 HPC 服务器与 NVIDIA GPU 服务器，支撑大规模科学计算。  
+- 使用 SCCM、PXE 等工具实现 Windows 客户端的自动化部署与生命周期管理。  
+- 管理 Cisco 交换机与路由、VLAN、NAT、私有 DNS / DHCP、基本防火墙策略等网络设施。  
+- 安装与维护科研软件栈，支撑生物信息学、分子模拟及大数据分析等复杂应用。  
+- 使用 Nagios、Zabbix 等监控系统，保障关键计算与存储系统的可用性。  
+- 构建并运维 HPC 集群，包括 Slurm 调度、GPU 节点调度优化、共享存储与集群运维。
 
-**核心工作与成果**
+这一角色为其后续从事大规模分布式系统、平台工程、GPU 加速基础设施与高可靠性计算打下坚实基础。
 
-- 参与奥斯陆大学科研数据中心的高性能计算（HPC）平台建设与运维，分布式计算节点、NVIDIA GPU 节点的部署、调试与稳定性保障，支持研究人员运行基于 Slurm 的并行计算任务。
-- 搭建并维护 RAID、Samba、NFS、Nagios 监控系统，以及内部网络、私有 DNS/DHCP 域，确保科研环境的高可用与数据安全。
-- 管理 VMware 与 KVM 虚拟化集群，支撑多实验室、多学科的科学计算与数据密集型任务。
-- 配置与维护 Cisco 网络设备、NAT、防火墙策略，为 HPC 集群和科研系统提供稳定的网络基础。
-- 使用 SCCM + PXE 自动化部署 Linux/Windows 系统，实现批量节点装机与环境一致性。
-- 为 HPC 用户提供运行环境调优、GPU 故障排查与依赖软件配置支持，解决科研软件环境复杂难复现的问题，提高科研团队计算效率。
+`2008`  
+### Archive Assistant & Logger — Olympic Broadcasting Services (OBS), 北京奥运会
 
-通过这些工作，我在职业生涯早期建立了坚实的 Linux 系统、网络、存储、虚拟化和高性能计算（HPC/分布式系统）基础，为后续在企业级平台工程、云原生和稳定性架构方向奠定了核心能力。
+- 在 IBC（国际广播中心）参与赛事内容记录与时间码标注。  
+- 与全球制作团队合作处理多场馆实时信号。  
+- 管理磁带档案（HDCAM / XD），为后期内容生产提供基础。
 
-
-这是我职业生涯的基础阶段，使我打下了坚实的 Linux、网络、虚拟化、存储和高性能计算的底层基础。
-
-`2008`
-### **Archive Assistant & Logger（转播资料记录与内容标注） — Olympic Broadcasting Services（国际奥委会·奥运转播机构）**
-
-**公司简介**  
-Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥运会全球电视信号（Host Broadcast）的制作与分发，是全球体育转播技术最前沿的组织之一。其在 IBC（国际广播中心）运营的多源采集、内容标注、元数据管理与信号分发流程，是整个全球奥运转播体系的核心。
-
-**岗位定位**  
-作为北京奥运会 IBC 的 Archive Assistant & Logger，参与奥林匹克赛事影像资料的采集、事件标注与档案管理工作，为世界各地转播商提供可检索、可索引的结构化内容。该岗位是全球体育内容处理链路中极为关键的基础环节。
-
-**核心工作与成果**
-
-- **负责赛事精彩瞬间（SOG）标注与时间码记录**  
-  - 根据转播画面实时记录关键事件，以时间码（timestamp）形式建立索引  
-  - 这些结构化元数据为后期编辑、国际转播商制作内容包（highlight packages）提供基础
-
-- **参与早期“半自动化内容标注流程”**  
-  - 2008 年的标注方式已初具 AI 训练数据雏形（结构化标签 + 时间线序列数据）  
-  - 多语种、多场馆海量内容在 IBC 汇聚，需人工严格保证准确性和一致性
-
-- **协作管理赛事档案系统**  
-  - 所有素材均以磁带（传统 HDCAM / XD formats）记录并存档  
-  - 这些档案目前由 IOC 存放于瑞士，为多年后媒体使用提供珍贵历史资产
-
-- **在国际团队环境中工作**  
-  - 与来自欧洲、北美、亚太的制作、编辑、技术人员协作  
-  - 深入理解国际媒体行业链路（采集 → 标注 → 内容包 → 转播）
-
-**项目价值（Value Created）**
-
-- 参与了历史上最成功、最复杂、最具技术突破性的奥运转播工作之一  
-- 建立了对 **直播信号处理、内容索引、媒体元数据与大规模分发链路** 的早期理解  
-- 该经历为后来进入媒体技术领域（Appear）带来强关联性  
-- 对“视频传输”“低延时分发”“转播链路稳定性”等概念拥有**早于行业的第一手经验**  
+---
 
 ## 证书（Certificates）
 
-- Red Hat 2024 年度认证专业人士（Red Hat Certified Professional of the Year 2024）
-- Red Hat 认证架构师（Red Hat Certified Architect）
-- Red Hat 容器认证专家（Red Hat Certified Specialist in Containers）
-- Red Hat OpenShift 管理员认证（Red Hat Certified OpenShift Administrator）
-- Red Hat Ansible 自动化平台管理认证专家（Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform）
-- Red Hat 系统部署与管理认证专家（Red Hat Certified Specialist in Deployment and Systems Management）
-- Red Hat 认证工程师（Red Hat Certified Engineer，RHCE）
-- Red Hat 认证系统管理员（Red Hat Certified System Administrator，RHCSA）
-- Red Hat 容器与 Kubernetes 认证专家（Red Hat Certified Specialist in Containers and Kubernetes）
-- 英伟达AI基础设施与运维基础认证（NVIDIA AI Infrastructure and Operations Fundamentals）
-- 微软 Azure 基础认证（Microsoft Certified: Azure Fundamentals）
+- Red Hat Certified Professional of the Year 2024  
+- Red Hat Certified Architect  
+- Red Hat Certified Specialist in Containers  
+- Red Hat Certified OpenShift Administrator  
+- Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform  
+- Red Hat Certified Specialist in Deployment and Systems Management  
+- Red Hat Certified Engineer  
+- Red Hat Certified System Administrator  
+- NVIDIA AI Infrastructure and Operations Fundamentals  
+- Microsoft Certified: Azure Fundamentals  
+- Red Hat Certified Specialist in Containers and Kubernetes  
+
+---
 
 ## 会议与活动（Events & Conference）
 
 - Cloud Native Day Oslo 2025  
-- Red Hat Summit & Ansible Fest
+- Red Hat Summit - Red Hat Ansible Fest  
 
-## 其他项目（Other Projects）
-
-- Build multi-model Generative AI experiences on Azure Openshift
-- Provision VM using Terraform and Configuring CI/CD pipeline on Azure
-- Build Proxmox virtual infrastructure for complex IT system
-- Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
-- Integrate Linux to Windows Domain
-- Build modern inventory system with OCS inventory
-- Set up local directory service with OpenLDAP
-- Set up Windows Server Update Services for lab network
-- Using Apache Guacamole as free and open-source cross-platform Remote Desktop Gateway
-- Intrusion detection and monitoring with Snort and Munin
+---
 
 ## 文章（Articles）
 
-- 《Let’s talk about troubleshooting》  
-- 《Challenges, tips, and rewards: working as a consultant in Norway》  
-- 《Cloud Native Day Oslo — From DevOps to DevEx》  
+- [Let´s talk about troubleshooting](https://medium.com/@gcccheng/lets-talk-about-troubleshooting-090ab6cbb95c)  
+- [Challenges, tips, and rewards: working as a consultant in Norway](https://medium.com/@gcccheng/challenges-tips-and-rewards-working-as-a-consultant-in-norway-4b6ddce2ff3b)  
+- [Cloud Native Day Oslo — From DevOps to DevEx](https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/)  
+
+---
 
 ## 课程（Courses）
 
 - Google Cloud Fundamentals  
-- NVIDIA：AI Infrastructure and Operations  
+- Nvidia Academy: AI Infrastructure and Operations  
 - GenAI for DevOps Practitioners  
-- Linux Foundation：Introduction to DevOps and Site Reliability Engineering  
-- Linux Foundation：Introduction to Cloud Infrastructure Technologies  
+- Linux Foundation: Introduction to DevOps and Site Reliability Engineering (Graded and Certified)  
+- Linux Foundation: Introduction to Cloud Infrastructure Technologies  
 - Microsoft Azure Fundamentals  
 - Intrusion Detection and Firewalls  
 - Enterprise Networking: Practices and Technologies  
@@ -253,36 +323,65 @@ Olympic Broadcasting Services（OBS）是国际奥委会直属机构，负责奥
 - Introduction to programming with scientific applications  
 - Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift  
 
+---
+
 ## 工作坊（Workshops）
 
 - Azure Red Hat OpenShift AI  
 - AWS RAG and Fine-tuned AI  
 - Using the High Performance Computing cluster for Educloud Research users  
 - Cilium Hands-On Workshop & Deep Dive Oslo  
+- Manage VM, virtual network, firewall on Azure  
+- Deploy AWS EC2 instance with Terraform  
 - Python for Scientific Computing  
 - Virtualized research architecture using OpenStack  
 - AI at UiO  
+- Using Environment Modules to initialize shell and modify shell environment  
+
+---
+
+## 其他项目（Other Projects）
+
+- 在 Azure OpenShift 上构建多模型生成式 AI 体验  
+- 使用 Terraform 为 Azure Provision VM 并配置 CI/CD 流水线  
+- 构建基于 Proxmox 的虚拟化基础设施  
+- 构建 Foreman + Ansible + Smart Proxy 平台，为大规模基础设施提供自动化主机部署  
+- 将 Linux 集成到 Windows 域环境  
+- 使用 OCS Inventory 搭建现代资产管理系统  
+- 使用 OpenLDAP 搭建本地目录服务  
+- 配置 Windows Server Update Services（WSUS）为实验环境提供补丁分发  
+- 使用 Apache Guacamole 构建跨平台远程桌面网关  
+- 使用 Snort 与 Munin 实现入侵检测与监控  
+
+---
 
 ## 技术栈（Experienced Tech Stacks and Skills）
 
-- Kubernetes、Docker、Podman, GitHub Actions、GitHub Actions Runner Controller (ARC) , Red Hat Linux、Red Hat Satellite、Red Hat OpenShift、Red Hat Ansible, Atlassian Bitbucket、Confluence、Jira, Grafana、Prometheus、Splunk, Dell PowerEdge、Cisco, Windows SCCM, Samba、NFS、FirewallD、Active Directory, Terraform, Bash, Perl, Python, Go 
+Kubernetes、Docker、Podman、GitHub Actions、GitHub Actions Runner Controller (ARC)、GitLab、Red Hat Linux、Red Hat Satellite、Red Hat OpenShift、Red Hat Ansible、Atlassian Bitbucket、Confluence、Jira、Grafana、Prometheus、Splunk、Dell PowerEdge、Cisco 交换机、Windows SCCM、Samba、NFS、FirewallD、Active Directory、Terraform、Bash、Perl、Python、Go  
 
-## 其他接触技能（Exposure Tech Stacks and Skills）
+---
 
-AWS， AliCloud
+## 接触技术栈（Exposure Tech Stacks and Skills）
+
+AWS、阿里云（AliCloud）
+
+---
 
 ## 教育背景（Education）
 
-`2010–2012` **奥斯陆大学 — 网络与系统管理 - 硕士**
+`2010–2012`  
+奥斯陆大学（University of Oslo）：网络与系统管理 硕士  
 
-`2006–2010` **中国传媒大学 - 计算机技术 - 学士**
+---
 
 ## 兴趣（Hobbies）
 
 博客写作、滑雪、徒步  
 
+---
+
 ## 语言（Languages）
 
+- 中文：母语  
 - 英语：专业工作熟练度  
 - 挪威语：专业工作熟练度  
-- 中文：母语  
