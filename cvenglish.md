@@ -84,13 +84,15 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 
 ### Senior Infrastructure Engineer at Sopra Steria
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
+
 #### ★ Building High Availabili Kubernetes and Github Actions Runner Controller(ARC)(sole role)
 The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 ##### Responsibilities
 - Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
 ##### Value Created
 - Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
-#### API Gateway & API Management MVP on OpenShift (Customer PoC)
+  
+#### ★ API Gateway & API Management MVP on OpenShift (Customer PoC)
 - Led a proof-of-concept to evaluate enterprise API gateway and management capabilities for a client needing consistent authentication, routing, and rate control across microservices.
 ##### Responsibilities
 - Deployed Red Hat 3scale (API Manager + APIcast Gateway) on OpenShift using the official Operator and APIManager CRD.
