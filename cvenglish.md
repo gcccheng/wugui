@@ -53,14 +53,14 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 #### Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
 To ensure infrastructure resilience and verify that the platform could be fully recovered at any time, we performed quarterly DR drills that involved destroying all non-production infrastructure and rebuilding it from scratch using IaC workflows.
 
-**Responsibilities**
+##### Responsibilities
 
 - Designed and executed quarterly DR exercises that removed all existing infrastructure components, including Kubernetes clusters, VMs, networks, storage, and platform services.
 - Rebuilt the entire environment automatically using Terraform, Ansible, and cluster bootstrapping scripts, validating that the IaC definitions were complete, up-to-date, and production-ready.
 - Ensured deterministic, repeatable, and fast environment recovery, reducing dependency on manual operations and increasing overall infrastructure reliability.
 - Documented recovery procedures, measured rebuild time, and provided readiness reports for compliance and operational governance.
   
-**Value Created**
+##### Value Created
 
 - Established a provable, auditable DR capability demonstrating that the entire platform could be recreated from zero using declarative IaC.
 - Improved platform resilience, reduced configuration drift, strengthened compliance posture, and ensured the organisation could rapidly recover in case of disaster or major incident.
@@ -72,7 +72,7 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 - Support case submission and diagnostic/log uploads
 - Contract manufacturer (CM) workflows, including access to build artifacts and production resources
 - 
-**Responsibilities (in progress)**
+##### Responsibilities (in progress)
   
 - Designing and operating the **Azure infrastructure foundation** for the Hub using **Azure Container Apps, VMs, Azure Container Registry, Blob Storage, Front Door and DNS**.  
 - Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.  
@@ -87,95 +87,95 @@ During past years, Gang has been worked as DevOps/infrastructure engineer and le
 ### ★ Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)
 The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 
-**Responsibilities**  
+##### Responsibilities
 
 - Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
   
-**Value Created**
+##### Value Created
 
 - Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
 #### API Gateway & API Management MVP on OpenShift (Customer PoC)
 - Led a proof-of-concept to evaluate enterprise API gateway and management capabilities for a client needing consistent authentication, routing, and rate control across microservices.
   
-**Responsibilities**
+##### Responsibilities
 
 - Deployed Red Hat 3scale (API Manager + APIcast Gateway) on OpenShift using the official Operator and APIManager CRD.
 - Configured products, backends, routing rules, API keys, and rate-limit plans to model real internal APIs and governance workflows.
 - Demonstrated developer onboarding through the Developer Portal and documented a reference architecture applicable to Kong / Apigee / AWS API Gateway.
   
-**Value Created**
+##### Value Created
 
 - Delivered a working MVP showing how API traffic, authentication, and governance could be centralised. Provided a clear foundation for future API-first adoption, even though the PoC did not proceed to production.
 #### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 - Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
   
-**Responsibilities** 
+##### Responsibilities
 
 - Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
   
-**Value Created**
+##### Value Created
 
 - Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 #### Implementing GitOps Deployment Workflow with Argo CD (sole role)**
 - With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
   
-**Responsibilities**  
+##### Responsibilities
 
 - Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
   
-**Value Created**
+##### Value Created
 
 - Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 #### Infrastructure Standardization and Automation(sole role)
 - The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
   
-**Responsibilities**  
+##### Responsibilities 
 
 - Standardized operating systems, simplified and automated VM provisioning and management process.
   
-**Value Created** 
+##### Value Created
 
 - Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 #### Troubleshooting and Improving CI/CD Pipelines
 - The development team encountered various errors and instability when running pipelines on self-hosted runners.
   
-**Responsibilities**  
+##### Responsibilities 
 
 - Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
   
-**Value Created** 
+##### Value Created
 
 - Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 #### Automating Provisioning of Red Hat Linux (sole role)
 - RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 - RHEL9 needs to be tested and configured before production use.
   
-**Responsibilities**  
+##### Responsibilities
 
 - Designed upgrading plan with application owners and automated upgrading job with Ansible.
 - Created a customized Red Hat image template for VMware and tested aginst production environment.
   
-**Value Created**
+##### Value Created
   
 - Ensure systems are aligned with security compliance standards.
 #### Ansible Automation Platform on Openshift
 - With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
   
-**Responsibilities**  
+##### Responsibilities
 
 - Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
   
-**Value Created** 
+##### Value Created
 
 - Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
 #### ★ Automating Patching of Red Hat VM (sole role)
 - The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
   
-**Responsibilities**  
+##### Responsibilities
 
 - Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
 
-**Value Created** 
+##### Value Created 
 
 - Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
   
@@ -184,7 +184,7 @@ The existing use of GitHub self-hosted runners on virtual machines (VMs) led to 
 ### System Engineer at University of Oslo
 - At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers.
   
-**Responsibilities**
+##### Responsibilities
 
 - Server & Infrastructure Management: Installed, configured, and maintained compute systems for scientific workloads, including Linux-based compute nodes, distributed HPC servers, and NVIDIA GPU-accelerated machines. Built and operated foundational components of the university’s high-performance computing environment, ensuring system reliability, performance, and scalability across research workloads.
 - Windows Deployment and Administration: Automated provisioning and lifecycle management of Windows clients using PXE and SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy compliance for stable operation.
@@ -199,7 +199,7 @@ This role formed the foundation for Gang’s later specialization in large-scale
 ### Archive Assistant & Logger — Olympic Broadcasting Services (OBS), Beijing Olympics  
 OBS is the International Olympic Committee’s broadcast organization responsible for host broadcasting for the Olympic Games.
 
-**Responsibilities**
+##### Responsibilities
 
 - Logged event highlights (SOG) with timestamps for indexing and editing workflows.
 - Worked at the International Broadcast Center (IBC) with global production teams handling multi-venue live feeds.
