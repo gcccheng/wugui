@@ -26,7 +26,7 @@ Appear TV is a leading European provider of video compression, media processing 
 #### ★ Internal AI & Developer Experience Platform (LLM Enablement)
 Designed and delivered an **internal AI/LLM enablement platform** to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
 
-**Responsibilities**  
+##### Responsibilities
 
 - Acted as technical owner for the initiative, from architecture to implementation and rollout.
 - Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
@@ -35,7 +35,7 @@ Designed and delivered an **internal AI/LLM enablement platform** to support eng
 - Implemented basic prompt governance and usage logging, laying groundwork for **responsible AI and auditability**.
 - Worked with several R&D teams to promote AI-assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
   
-**Value Created**
+##### Value Created
 
 - Established the company’s first **unified internal AI entry point**, significantly lowering the barrier for engineers to use LLMs in daily work.
 - Shifted AI usage from ad-hoc, individual experimentation to **systematic, policy-aware consumption**.
