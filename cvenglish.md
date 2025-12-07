@@ -106,6 +106,22 @@ The existing use of GitHub self-hosted runners on virtual machines (VMs) led to 
 ##### Value Created
 
 - Delivered a working MVP showing how API traffic, authentication, and governance could be centralised. Provided a clear foundation for future API-first adoption, even though the PoC did not proceed to production.
+- 
+#### Implementing Ceph Storage Integration for OpenShift (client project)
+
+The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
+
+##### Responsibilities
+
+- Deployed and configured a Ceph cluster to serve as the storage backend for OpenShift, ensuring high availability and replication across nodes.
+- Integrated Ceph with OpenShift via StorageClasses and dynamic PVC provisioning to support stateful applications.
+- Performed validation of read/write performance, redundancy, and failure recovery scenarios.
+- Documented operational procedures, including node replacement, OSD recovery, monitoring, and capacity planning.
+
+##### Value Created
+Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably.
+Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
+
 #### Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)
 - Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
   
