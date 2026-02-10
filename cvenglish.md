@@ -23,44 +23,72 @@ With over a decade of hands-on experience across diverse IT infrastructure envir
 ## Employment
 `2025–Present`
 ### Senior Platform Engineer — Appear TV, Oslo, Norway  
-Appear TV is a leading European provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including NBCUniversal、Discovery、NHL、Formula 1、Riot Games. 
+Appear TV is a leading global provider of video compression, media processing and distribution technology, widely used by global broadcasters, telecom operators and major live event organizations, including NBCUniversal, Discovery, NHL, Formula 1 and Riot Games.
 
 ---
 
-#### ★ Internal AI & Developer Experience Platform (LLM Enablement)
-
-Designed and delivered an **internal AI/LLM enablement platform** to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
+#### ★ NVIDIA GPU Cluster & Model Serving Platform
 
 ##### Responsibilities
 
-- Acted as technical owner for the initiative, from architecture to implementation and rollout.
+- Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
+- Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
+- Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
+- Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
+- Coordinated R&D and platform teams to operationalise model serving and inference workflows.
+
+---
+#### ★ CISO Partnership & Platform Security Governance
+
+##### Responsibilities
+
+- Built and implemented **Kyverno Policy‑as‑Code** as the core platform security governance mechanism.
+- Led security governance reviews and implementation paths, aligning security controls with business requirements.
+- Reviewed platform baselines to identify key risks and vulnerabilities.
+- Designed and maintained **Validating** and **Mutation** policies, continuously iterating the policy library.
+- Delivered GitOps‑driven security policies for auditability, traceability and rollback.
+- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting IPO readiness and ISO 27001 certification.
+- Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
+
+---
+
+#### ★ Internal Self-Hosted AI Platform
+
+Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
+
+##### Responsibilities
+
+- Acted as technical owner, leading **platform architecture, capability layering and governance model**.
+- Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution.
+- Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
 - Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
 - Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
-- Explored model-selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
-- Implemented basic prompt governance and usage logging, laying groundwork for **responsible AI and auditability**.
-- Worked with several R&D teams to promote AI-assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
+- Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
+- Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
+- Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
   
 ##### Value Created
 
-- Established the company’s first **unified internal AI entry point**, significantly lowering the barrier for engineers to use LLMs in daily work.
-- Shifted AI usage from ad-hoc, individual experimentation to **systematic, policy-aware consumption**.
-- Created a practical foundation for future **AI Gateway-style capabilities** such as multi-tenant routing, observability and governance.
+- Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
+- Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
+- Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability and governance.
 
  ---
  
-#### ★ DevOps Platform (Cloud-Native Infrastructure Foundation)
+#### ★ DevOps Platform (Cloud‑Native Infrastructure Foundation)
 
-- Designed and built a highly available bare-metal Kubernetes platform using Rancher and Flatcar.
+- Designed and built a highly available bare‑metal Kubernetes platform using Rancher and Flatcar, defining standardised platform boundaries and capability baselines.
+- Led platform capability roadmap and aligned cross‑team expectations on service catalogue and platform scope.
 - Implemented GitOps workflows with GitLab CI, Argo CD and Kustomize, enabling consistent and auditable deployments.
-- Standardized infrastructure provisioning with Terraform and automated CI/CD pipelines.
-- Maintained key platform components: Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto and GitLab Runners.
-- Built observability using Prometheus + Grafana for clusters, workloads and pipelines.
-- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting the company’s efforts toward IPO readiness and ISO 27001 certification readiness.
-- Delivered platform-level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply-chain security, and audit logging.
-- Worked effectively within Agile and Scrum teams, participating in sprint planning, stand-ups, and iterative delivery workflows.
-- Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross-functional teams.
+- Standardised infrastructure provisioning with Terraform and automated CI/CD pipelines for change governance.
+- Operated platform capabilities including Harbor registry, TrueNAS NFS, ExternalDNS, Bind9, MetalLB, Yocto build environments and GitLab Runners.
+- Introduced design reviews, best practices and reusable templates to guide junior engineers and improve consistency.
+- Built observability using Prometheus + Grafana for clusters, workloads, pipelines and critical SLOs.
+- Worked effectively within Agile and Scrum teams, participating in sprint planning, stand‑ups, and iterative delivery workflows.
+- Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross‑functional teams.
 
 ---
+
   
 #### ★ Quarterly Disaster Recovery & Full Infrastructure Rebuild via IaC (Appear TV)
 
@@ -93,8 +121,9 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
   
 - Designing and operating the **Azure infrastructure foundation** for the Hub using **Azure Container Apps, VMs, Azure Container Registry, Blob Storage, Front Door and DNS**.  
 - Implementing secure authentication and authorisation with **Entra ID (Azure AD)** and role-based access control to segment customers, internal users and contract manufacturers.    
-- Introducing observability with **Azure Monitor / Log Analytics / Application Insights** for availability, latency, download success rate and support-case telemetry.  
-- Collaborating with product, support and manufacturing teams to translate requirements into robust, platform-level capabilities.
+- Establishing CI/CD and IaC practices for repeatable, auditable deployments and change traceability.  
+- Introducing observability with **Azure Monitor / Log Analytics / Application Insights** for availability, latency, download success rate and support‑case telemetry.  
+- Collaborating with product, support and manufacturing teams to translate requirements into robust, platform‑level capabilities.
 
 ---
 
@@ -435,4 +464,3 @@ Norwegian: Professional Working Proficiency
 <!-- ### Footer
 
 Last updated: December 2025 -->
-
