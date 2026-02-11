@@ -35,6 +35,11 @@ Appear TV is a leading global provider of video compression, media processing an
 - Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
 - Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
 - Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
+- Integrated GPU observability into the platform stack, covering **utilisation, inference latency, and throughput**.
+- Implemented model artifact versioning and lifecycle governance, enabling traceable releases.
+- Established **GitLab pipelines** to validate new model versions and quality gates before promotion.
+- Used **Argo CD** to automate model rollout and rollback with GitOps‑driven deployment safety.
+- Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
 - Coordinated R&D and platform teams to operationalise model serving and inference workflows.
 
 ---
