@@ -42,6 +42,11 @@ Appear TV is a leading global provider of video compression, media processing an
 - Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
 - Coordinated R&D and platform teams to operationalise model serving and inference workflows.
 
+##### Value Created
+
+- Delivered a governable, observable, and rollback‑safe GPU platform for reliable model serving.
+- Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
+
 ---
 #### ★ CISO Partnership & Platform Security Governance
 
@@ -54,6 +59,11 @@ Appear TV is a leading global provider of video compression, media processing an
 - Delivered GitOps‑driven security policies for auditability, traceability and rollback.
 - Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting IPO readiness and ISO 27001 certification.
 - Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
+
+##### Value Created
+
+- Established a platform‑level security governance system with auditable controls and compliance readiness.
+- Balanced security requirements with delivery efficiency by aligning policies to business needs.
 
 ---
 
@@ -82,6 +92,8 @@ Delivered an internal AI/LLM enablement platform to support engineering use-case
  
 #### ★ DevOps Platform (Cloud‑Native Infrastructure Foundation)
 
+##### Responsibilities
+
 - Designed and built a highly available bare‑metal Kubernetes platform using Rancher and Flatcar, defining standardised platform boundaries and capability baselines.
 - Led platform capability roadmap and aligned cross‑team expectations on service catalogue and platform scope.
 - Implemented GitOps workflows with GitLab CI, Argo CD and Kustomize, enabling consistent and auditable deployments.
@@ -91,6 +103,11 @@ Delivered an internal AI/LLM enablement platform to support engineering use-case
 - Built observability using Prometheus + Grafana for clusters, workloads, pipelines and critical SLOs.
 - Worked effectively within Agile and Scrum teams, participating in sprint planning, stand‑ups, and iterative delivery workflows.
 - Regularly used Jira and Confluence to track engineering work, document platform changes, and collaborate with cross‑functional teams.
+
+##### Value Created
+
+- Delivered a standardised, auditable platform foundation that improved delivery consistency and reliability.
+- Reduced operational overhead through automation, observability and governance‑driven workflows.
 
 ---
 
@@ -129,6 +146,11 @@ Appear Hub is a next-generation portal designed to replace legacy solutions and 
 - Establishing CI/CD and IaC practices for repeatable, auditable deployments and change traceability.  
 - Introducing observability with **Azure Monitor / Log Analytics / Application Insights** for availability, latency, download success rate and support‑case telemetry.  
 - Collaborating with product, support and manufacturing teams to translate requirements into robust, platform‑level capabilities.
+
+##### Value Created
+
+- Established a secure, observable global portal foundation to support scalable evolution.
+- Improved cross‑team delivery efficiency through standardised practices and governance.
 
 ---
 
